@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'trade-blue': '#222A72',
         'trade-blue2': '#3386E7',
+        'trade-green': '#27AE60',
       },
     },
   },

@@ -37,6 +37,7 @@
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -52,6 +53,7 @@
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -72,6 +74,7 @@
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -87,6 +90,7 @@
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -107,6 +111,7 @@
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -115,13 +120,14 @@
           placeholder="What do you want to enquire about?"
         />
         <input
-          type="number"
+          type="text"
           class="
             border-b border-white
             bg-black
             sm:w-5/12
             w-full
             py-2
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -141,6 +147,7 @@
             bg-black
             w-full
             py-1
+            px-5
             text-white
             placeholder-white
             lg:text-xl
@@ -150,7 +157,7 @@
         />
       </div>
 
-      <div class="xl:mt-28 mt-10 w-full flex justify-center z-50">
+      <div class="xl:mt-10 mt-10 w-full flex justify-center">
         <a href="#"
           ><button
             class="

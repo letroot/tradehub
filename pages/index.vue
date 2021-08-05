@@ -289,6 +289,21 @@
     </div>
 
     <div class="text-center bg-black text-white">
+      <div class="flex justify-center">
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628184622/tradehub/basic_goabzm.svg"
+          alt="basic"
+          class="w-4/12"
+        />
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628184624/tradehub/premium_noo8hs.svg"
+          alt="premium"
+          class="w-4/12"
+        />
+      </div>
+    </div>
+
+    <div class="text-center bg-black text-white">
       <h1 class="text-5xl font-bold">Trading in 3 Categories</h1>
       <p class="mt-4 text-xl w-5/12 mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -320,76 +335,8 @@
       /></a>
     </div>
 
-    <div class="flex justify-between px-52 pb-32 bg-black text-white text-lg">
-      <div class="w-4/12">
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985971/tradehub/box_be0pqm.png"
-          alt="box"
-          class="w-full"
-        />
-        <p class="mt-4 text-center">Basic Mentorship Plan</p>
-        <div class="mt-8 space-y-2">
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>$500 charge</p>
-          </div>
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>
-              Access to a private mentorship channel, and a discussion group for
-              students.
-            </p>
-          </div>
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>1 one-on-one Zoom session with me.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-4/12">
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985971/tradehub/box_be0pqm.png"
-          alt="box"
-          class="w-full"
-        />
-        <p class="mt-4 text-center">Premium Mentorship Plan</p>
-        <div class="mt-8 space-y-2">
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>$1,500 charge</p>
-          </div>
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>
-              Access to a private mentorship channel, and a discussion group for
-              students.
-            </p>
-          </div>
-          <div class="flex space-x-4">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985910/tradehub/tick_g39ptw.svg"
-              alt="tick"
-            />
-            <p>3 one-on-one Zoom sessions with me.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <GetinTouch />
+    <Footer />
   </div>
 </template>
 

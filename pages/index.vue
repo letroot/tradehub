@@ -250,7 +250,7 @@
         />
       </div>
       <div class="w-4/12 mt-16">
-        <p class="uppercase">TRAINING AND MENTORSHIP</p>
+        <p class="uppercase">TRAINING & MENTORSHIP</p>
         <h1 class="mt-4 text-5xl font-bold">
           One-on-One Financial Trading Mentorship
         </h1>

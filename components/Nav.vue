@@ -5,7 +5,7 @@
       w-full
       flex
       px-20
-      py-5
+      py-3
       justify-between
       dm
       items-center
@@ -16,8 +16,9 @@
   >
     <div>
       <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627920292/tradehub/logo_btzb9t.svg"
+        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628175918/tradehub/logo_ejt0p3.svg"
         alt="logo"
+        class="h-16"
       />
     </div>
     <div class="flex w-7/12 justify-between text-white">

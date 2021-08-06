@@ -16,7 +16,7 @@
   >
     <div>
       <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628175918/tradehub/logo_ejt0p3.svg"
+        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628259171/tradehub/logo_xme14g.svg"
         alt="logo"
         class="h-16"
       />

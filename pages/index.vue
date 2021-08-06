@@ -303,6 +303,54 @@
       </div>
     </div>
 
+    <div
+      class="flex justify-between pl-52 pr-32 pt-60 pb-28 bg-black text-white"
+    >
+      <div class="w-4/12 mt-16">
+        <p class="uppercase text-lg">MONEY MANAGEMENT</p>
+        <h1 class="mt-4 text-5xl font-bold">High Yield</h1>
+        <p class="mt-8 text-xl">
+          J.E.T is a platform that gives out to the trading community content
+          that helps them do better in their trading journey, from Psychology to
+          the technicalities of trading itself.
+          <br />
+          <br />
+          It's run by an individual, Joe, who is experienced and vast in market
+          analysis and psychological stability, with years of failures and
+          success in the marketplace.
+        </p>
+        <a href="#"
+          ><button
+            class="
+              mt-12
+              bg-trade-blue2
+              rounded-full
+              px-12
+              py-3
+              font-bold
+              flex
+              uppercase
+              text-xl
+              items-center
+            "
+          >
+            join now
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
+              alt="arrow"
+              class="ml-4"
+            />
+          </button>
+        </a>
+      </div>
+      <div class="w-6/12">
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628259495/tradehub/Rectangle_73_pcdftx.png"
+          alt="skyscrapers"
+        />
+      </div>
+    </div>
+
     <div class="text-center bg-black text-white">
       <h1 class="text-5xl font-bold">Trading in 3 Categories</h1>
       <p class="mt-4 text-xl w-5/12 mx-auto">

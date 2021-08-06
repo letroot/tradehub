@@ -173,12 +173,7 @@
               items-center
             "
           >
-            let's talk
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
-              alt="arrow"
-              class="ml-4"
-            />
+            send message
           </button>
         </a>
       </div>

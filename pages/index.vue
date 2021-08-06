@@ -14,9 +14,7 @@
             alt="line"
             class="mb-2"
           />
-          <h3 class="text-2xl w-4/12">
-            I help companies make ambitious trades and secure returns
-          </h3>
+          <h3 class="text-2xl w-4/12"></h3>
         </div>
         <h1 class="mt-10 text-7xl font-bold w-6/12">Hi, I’m Joe.</h1>
         <h2 class="mt-6 text-4xl font-bold w-6/12">
@@ -245,7 +243,7 @@
     <div class="flex justify-between pl-52 pr-32 py-32 bg-black text-white">
       <div class="w-6/12">
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627985118/tradehub/training_tof8fz.png"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628260244/tradehub/Rectangle_11_hsg6hk.png"
           alt="training"
         />
       </div>
@@ -308,7 +306,9 @@
     >
       <div class="w-4/12 mt-16">
         <p class="uppercase text-lg">MONEY MANAGEMENT</p>
-        <h1 class="mt-4 text-5xl font-bold">High Yield</h1>
+        <h1 class="mt-4 text-5xl font-bold">
+          High Yield Investment Portfolio Management
+        </h1>
         <p class="mt-8 text-xl">
           J.E.T is a platform that gives out to the trading community content
           that helps them do better in their trading journey, from Psychology to

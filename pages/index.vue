@@ -174,7 +174,7 @@
       <div
         class="
           mt-8
-          flex flex-wrap
+          flex flex-wrap lg:flex-nowrap
           justify-center
           lg:justify-between
           w-9/12

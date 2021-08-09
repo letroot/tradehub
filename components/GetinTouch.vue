@@ -5,8 +5,7 @@
       xl:py-36
       lg:py-28
       xl:px-32
-      lg:px-40
-      sm:px-16
+      lg:px-14
       px-10
       bg-black
       text-white
@@ -18,8 +17,8 @@
         xl:text-5xl
         lg:text-4xl
         sm:text-3xl
-        text-2xl
-        w-8/12
+        text-xl
+        sm:w-8/12 w-10/12
         mx-auto
         text-white text-center
       "
@@ -169,7 +168,8 @@
               font-bold
               flex
               uppercase
-              text-xl
+              text-sm
+              lg:text-xl
               items-center
             "
           >

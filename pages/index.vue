@@ -92,9 +92,30 @@
             to the technicalities of trading itself.
           </p>
           <button
-            class="mt-8 font-bold uppercase text-base lg:text-lg text-blue4"
+            class="
+              mt-8
+              font-bold
+              uppercase
+              text-base
+              lg:text-lg
+              text-blue4
+              flex
+              items-center
+              group
+            "
           >
-            LEARN MORE <span>></span>
+            LEARN MORE
+            <span
+              class="
+                ml-1
+                block
+                group-hover:translate-x-2
+                transform
+                transition
+                duration-500
+              "
+              >></span
+            >
           </button>
 
           <img
@@ -128,9 +149,30 @@
             over several years. Lorem ipsum lorem ipsum.
           </p>
           <button
-            class="mt-8 font-bold uppercase text-base lg:text-lg text-blue4"
+            class="
+              mt-8
+              font-bold
+              uppercase
+              text-base
+              lg:text-lg
+              text-blue4
+              flex
+              items-center
+              group
+            "
           >
-            LEARN MORE <span>></span>
+            LEARN MORE
+            <span
+              class="
+                ml-1
+                block
+                group-hover:translate-x-2
+                transform
+                transition
+                duration-500
+              "
+              >></span
+            >
           </button>
 
           <img
@@ -151,10 +193,8 @@
         justify-between
         px-10
         sm:px-16
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-44
+        lg:px-20
+        xl:px-44
         py-20
       "
     >
@@ -164,7 +204,7 @@
           alt="skyscrapers"
         />
       </div>
-      <div class="mt-10 sm:m-0 sm:w-5/12 xl:w-5/12">
+      <div class="mt-10 lg:m-0 sm:w-8/12 lg:w-5/12 mx-auto">
         <p class="smalltitle">WEALTH MANAGEMENT</p>
         <h1 class="mt-4 title">Money Management for Proprietary Firms</h1>
         <p class="mt-8 content">
@@ -181,7 +221,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -192,7 +234,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -203,7 +247,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -214,7 +260,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
         </div>
@@ -226,14 +274,12 @@
       class="
         bg-green
         flex flex-col
-        sm:flex-row
+        lg:flex-row
         justify-between
         px-10
         sm:px-16
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-44
+        lg:px-20
+        xl:px-44
         py-20
       "
     >
@@ -256,7 +302,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-9/12">
@@ -267,7 +315,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-9/12">
@@ -278,13 +328,15 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
         </div>
         <a href="#"><button class="mt-12 cta">learn more</button> </a>
       </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 sm:m-0">
+      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 lg:m-0">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
           alt="charts"
@@ -295,14 +347,12 @@
     <div
       class="
         flex flex-col
-        sm:flex-row
+        lg:flex-row
         justify-between
         px-10
         sm:px-16
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-44
+        lg:px-20
+        xl:px-44
         py-20
       "
     >
@@ -312,7 +362,7 @@
           alt="mentorship"
         />
       </div>
-      <div class="mt-10 sm:m-0 sm:w-5/12 xl:w-5/12">
+      <div class="mt-10 lg:m-0 sm:w-8/12 lg:w-5/12 mx-auto">
         <p class="smalltitle">MENTORSHIP</p>
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
@@ -329,7 +379,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -340,7 +392,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -351,7 +405,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -362,7 +418,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
         </div>

@@ -25,12 +25,16 @@ module.exports = {
       },
       boxShadow: {
         card: '0px 4px 76px rgba(0, 0, 0, 0.25);',
-        about: '0px 4px 36px #E5E9FF;',
+        about: '0px 4px 36px #E5E9FF',
+        btn: '0 2px 10px 0 rgb(2 43 105 / 28%)',
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      boxShadow: ['hover'],
+      translate: ['group-hover'],
+    },
   },
   plugins: [],
 }

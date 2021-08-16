@@ -10,7 +10,7 @@
 }
 
 .cta {
-  @apply space text-white bg-blue2 rounded-md px-12 py-2 font-medium uppercase text-sm lg:text-xl;
+  @apply space text-white bg-blue2 rounded-md px-12 py-2 font-medium uppercase text-sm lg:text-xl hover:shadow-btn transition duration-500;
 }
 
 .smalltitle {
@@ -22,5 +22,9 @@
 }
 
 .content {
-  @apply text-base sm:text-lg xl:text-xl text-dark;
+  @apply text-base xl:text-xl text-dark;
+}
+
+.content2 {
+  @apply text-sm xl:text-lg text-dark;
 }

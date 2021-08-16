@@ -67,14 +67,12 @@
     <div
       class="
         flex flex-col
-        sm:flex-row
+        lg:flex-row
         justify-between
         px-10
         sm:px-16
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-44
+        lg:px-20
+        xl:px-44
         py-20
       "
     >
@@ -84,7 +82,7 @@
           alt="mentorship"
         />
       </div>
-      <div class="mt-10 sm:m-0 sm:w-5/12 xl:w-5/12">
+      <div class="mt-10 lg:m-0 sm:w-8/12 lg:w-5/12 mx-auto">
         <p class="smalltitle">MENTORSHIP</p>
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
@@ -101,7 +99,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -112,7 +112,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -123,7 +125,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -134,7 +138,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
         </div>
@@ -142,15 +148,22 @@
       </div>
     </div>
 
-    <div class="flex flex-col sm:flex-row">
-      <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127549/tradehub/Group_107_j8b6ik.svg"
-        alt=""
-      />
-      <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127548/tradehub/Group_108_o95xd5.svg"
-        alt=""
-      />
+    <div class="pb-10">
+      <div class="flex flex-col sm:flex-row justify-center items-center">
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127549/tradehub/Group_107_j8b6ik.svg"
+          alt=""
+          class="w-9/12 sm:w-4/12"
+        />
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127548/tradehub/Group_108_o95xd5.svg"
+          alt=""
+          class="w-9/12 sm:w-4/12"
+        />
+      </div>
+      <div class="pb-8 w-full flex justify-center">
+        <button class="cta">let's talk</button>
+      </div>
     </div>
 
     <AboutMe />

@@ -67,14 +67,12 @@
     <div
       class="
         flex flex-col
-        sm:flex-row
+        lg:flex-row
         justify-between
         px-10
         sm:px-16
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-44
+        lg:px-20
+        xl:px-44
         py-20
       "
     >
@@ -97,7 +95,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-9/12">
@@ -108,7 +108,9 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
           <div class="mt-10 flex items-start space-x-3 w-9/12">
@@ -119,13 +121,15 @@
             />
             <div class="">
               <h1 class="space text-blue">Lorem ipsum</h1>
-              <p>Lorem ipsum dolor option ipsum dolor option</p>
+              <p class="content2">
+                Lorem ipsum dolor option ipsum dolor option
+              </p>
             </div>
           </div>
         </div>
         <a href="#"><button class="mt-12 cta">learn more</button> </a>
       </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 sm:m-0">
+      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 lg:m-0">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
           alt="charts"

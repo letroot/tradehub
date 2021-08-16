@@ -1,103 +1,148 @@
 <template>
   <div class="dm">
     <Nav />
-    <div class="h-screen relative">
-      <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627924778/tradehub/Rectangle_4_jpgfpq.png"
-        alt="hero-img"
-        class="h-screen w-full object-cover"
-      />
+    <div class="h-screen bg-white relative">
       <div
         class="
-          absolute
-          bottom-56
-          xl:bottom-44
-          left-8
-          sm:left-16
-          lg:left-36
-          xl:left-52
-          text-white
+          xl:px-44
+          sm:px-20
+          px-8
+          pt-28
+          lg:pt-52
+          text-blue
+          flex flex-col
+          lg:flex-row
+          justify-between
         "
       >
-        <div class="flex items-end">
+        <div class="lg:w-6/12">
+          <h1
+            class="
+              mt-5
+              xl:mt-10
+              text-3xl
+              sm:text-4xl
+              xl:text-6xl
+              font-bold
+              sm:w-8/12
+              lg:w-11/12
+              space
+            "
+          >
+            Join the Fastest Growing Financial Trading Online Community
+          </h1>
+          <h2
+            class="
+              mt-6
+              text-base
+              sm:text-xl
+              lg:text-xl
+              xl:text-2xl
+              w-11/12
+              sm:w-8/12
+              lg:w-11/12
+              text-dark
+            "
+          >
+            J.E.T. is a platform that gives out to the trading community content
+            that helps them do better in their trading journey.
+          </h2>
+          <button class="cta text-white mt-10">JOIN NOW</button>
+        </div>
+        <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627924274/tradehub/line_jpn4qj.png"
-            alt="line"
-            class="mb-2"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109716/tradehub/hero_crgpsy.svg"
+            alt="hero"
           />
         </div>
-        <h1
-          class="
-            mt-5
-            xl:mt-10
-            text-4xl
-            sm:text-5xl
-            lg:text-6xl
-            xl:text-7xl
-            font-bold
-            sm:w-6/12
-          "
-        >
-          Hi, I’m Joe.
-        </h1>
-        <h2
-          class="
-            mt-6
-            text-xl
-            sm:text-2xl
-            lg:text-3xl
-            xl:text-4xl
-            font-bold
-            w-10/12
-            sm:w-6/12
-          "
-        >
-          I want to invite you to join my online community of traders on the
-          financial market, for free.
-        </h2>
-      </div>
-      <div
-        class="
-          absolute
-          bottom-0
-          left-8
-          sm:left-16
-          lg:left-36
-          xl:left-52
-          -mb-36
-          sm:-mb-48
-          border-2 border-trade-green
-          bg-trade-blue
-          xl:w-3/12
-          lg:w-4/12
-          sm:w-5/12
-          w-8/12
-          p-8
-          text-white
-        "
-      >
-        <h4 class="text-lg lg:text-2xl font-medium">Want to get started?</h4>
-        <p class="mt-5 text-xs lg:text-lg w-10/12">
-          Click the button below to join the fastest growing online community of
-          financial traders
-        </p>
-        <button
-          class="
-            mt-8
-            bg-trade-blue2
-            rounded-full
-            px-12
-            py-2
-            font-bold
-            uppercase
-            text-xs
-            lg:text-lg
-          "
-        >
-          Let’s talk
-        </button>
       </div>
     </div>
+
+    <div class="py-20 px-8 sm:px-14 bg-blue3">
+      <h1 class="title text-center">
+        Hi, I’m Joe. <br />
+        An experienced financial trader.
+      </h1>
+      <h2 class="text-center content mt-4 w-11/12 lg:w-6/12 mx-auto">
+        Let work togerther lrem ipsum lorem ipsum Let work togerther lrem ipsum
+        lorem ipsum
+      </h2>
+
+      <div class="mt-16 flex flex-col lg:flex-row justify-center lg:space-x-16">
+        <div
+          class="
+            bg-green
+            shadow-card
+            lg:w-5/12
+            w-full
+            sm:p-14
+            p-6
+            pb-32
+            rounded-2xl
+            relative
+          "
+        >
+          <p class="smalltitle">THE COMMUNITY</p>
+          <h4 class="mt-4 text-xl lg:text-3xl font-bold space text-blue2">
+            Gain Proven Insights into Effective Trading Strategies
+          </h4>
+          <p class="mt-5 text-sm lg:text-lg text-blue5">
+            J.E.T is a platform that gives out to the trading community content
+            that helps them do better in their trading journey, from Psychology
+            to the technicalities of trading itself.
+          </p>
+          <button
+            class="mt-8 font-bold uppercase text-base lg:text-lg text-blue4"
+          >
+            LEARN MORE <span>></span>
+          </button>
+
+          <img
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629114173/tradehub/motif-1_j2lxob.svg"
+            alt="motif-1"
+            class="absolute right-0 bottom-0"
+          />
+        </div>
+
+        <div
+          class="
+            mt-10
+            lg:mt-0
+            bg-orange
+            shadow-card
+            lg:w-5/12
+            w-full
+            sm:p-14
+            p-6
+            pb-32
+            rounded-2xl
+            relative
+          "
+        >
+          <p class="smalltitle">LEVEL UP</p>
+          <h4 class="mt-4 text-xl lg:text-3xl font-bold space text-blue2">
+            Join the Premium Mentorship Circle
+          </h4>
+          <p class="mt-5 text-sm lg:text-lg text-blue5">
+            Get one-on-one sessions with me and learn the insights I have gained
+            over several years. Lorem ipsum lorem ipsum.
+          </p>
+          <button
+            class="mt-8 font-bold uppercase text-base lg:text-lg text-blue4"
+          >
+            LEARN MORE <span>></span>
+          </button>
+
+          <img
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629114938/tradehub/motif-2_dydlu7.svg"
+            alt="motif-3"
+            class="absolute right-0 bottom-0"
+          />
+        </div>
+      </div>
+    </div>
+
+    <Testimonials />
 
     <div
       class="
@@ -109,208 +154,140 @@
         lg:pl-36
         xl:pl-52
         lg:pr-20
-        xl:pr-32
-        pt-72
-        xl:pt-60
-        pb-28
-        bg-black
-        text-white
+        xl:pr-44
+        py-20
       "
     >
-      <div class="sm:w-5/12 xl:w-4/12 mt-2 xl:mt-16">
-        <p class="uppercase text-sm lg:text-lg">THE JOE ELITE TRADE HUB</p>
-        <h1 class="mt-4 text-3xl lg:text-5xl font-bold">
+      <div class="w-9/12 sm:w-6/12 mx-auto">
+        <img
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124912/tradehub/Rectangle_90_jn1smc.png"
+          alt="skyscrapers"
+        />
+      </div>
+      <div class="mt-10 sm:m-0 sm:w-5/12 xl:w-5/12">
+        <p class="smalltitle">WEALTH MANAGEMENT</p>
+        <h1 class="mt-4 title">Money Management for Proprietary Firms</h1>
+        <p class="mt-8 content">
+          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+        <div class="flex justify-between flex-wrap">
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+        </div>
+        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+      </div>
+    </div>
+
+    <div
+      class="
+        bg-green
+        flex flex-col
+        sm:flex-row
+        justify-between
+        px-10
+        sm:px-16
+        lg:pl-36
+        xl:pl-52
+        lg:pr-20
+        xl:pr-44
+        py-20
+      "
+    >
+      <div class="sm:w-5/12 xl:w-5/12">
+        <p class="smalltitle">THE COMMUNITY</p>
+        <h1 class="mt-4 title">
           Gain Proven Insights into Effective Trading Strategies
         </h1>
-        <p class="mt-8 text-sm lg:text-xl">
-          J.E.T is a platform that gives out to the trading community content
-          that helps them do better in their trading journey, from Psychology to
-          the technicalities of trading itself.
-          <br />
-          <br />
-          It's run by an individual, Joe, who is experienced and vast in market
-          analysis and psychological stability, with years of failures and
-          success in the marketplace.
+        <p class="mt-8 content">
+          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-        <a href="#"
-          ><button
-            class="
-              mt-12
-              bg-trade-blue2
-              rounded-full
-              px-12
-              py-3
-              font-bold
-              flex
-              uppercase
-              text-sm
-              lg:text-xl
-              items-center
-            "
-          >
-            join now
+        <div class="mt-6">
+          <div class="mt-10 flex items-start space-x-3 w-9/12">
             <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
-              alt="arrow"
-              class="ml-4"
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
             />
-          </button>
-        </a>
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-9/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-9/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+        </div>
+        <a href="#"><button class="mt-12 cta">learn more</button> </a>
       </div>
       <div class="w-9/12 sm:w-6/12 mx-auto mt-10 sm:m-0">
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628175984/tradehub/Rectangle_10_geywnz.png"
-          alt="skyscrapers"
-        />
-      </div>
-    </div>
-
-    <div class="text-center bg-black text-white">
-      <h1 class="text-3xl lg:text-5xl font-bold">How to Work with Joe</h1>
-      <p class="mt-4 text-sm lg:text-xl w-10/12 sm:w-4/12 mx-auto">
-        This community will give you the deepest insight into effective and
-        result oriented trading strategies.
-      </p>
-      <div
-        class="
-          mt-8
-          flex flex-wrap lg:flex-nowrap
-          justify-center
-          lg:justify-between
-          w-9/12
-          sm:w-5/12
-          lg:w-11/12
-          xl:w-9/12
-          mx-auto
-          lg:space-x-8
-          text-trade-blue3
-        "
-      >
-        <div
-          class="
-            border-2 border-community-stroke
-            bg-community-fill
-            lg:w-4/12
-            w-full
-            p-8
-            text-center
-          "
-        >
-          <h4 class="text-lg lg:text-2xl font-medium">Join Community</h4>
-          <p class="mt-5 text-xs lg:text-lg">
-            Get one-on-one sessions with me and learn the insights I have gained
-            over several years.
-          </p>
-          <button
-            class="
-              mt-8
-              bg-trade-blue
-              rounded-full
-              px-12
-              py-2
-              font-bold
-              uppercase
-              text-xs
-              lg:text-lg
-              text-white
-            "
-          >
-            join now
-          </button>
-        </div>
-        <div
-          class="
-            border-2 border-community-stroke
-            bg-mentor-fill
-            lg:w-4/12
-            w-full
-            p-8
-            mt-10
-            lg:mt-0
-            text-center
-          "
-        >
-          <h4 class="text-lg lg:text-2xl font-medium">Get Mentored</h4>
-          <p class="mt-5 text-xs lg:text-lg">
-            Are you a prop firm looking to gain high-yield returns on your
-            portfolio? Let’s talk.
-          </p>
-          <button
-            class="
-              mt-8
-              bg-trade-blue
-              rounded-full
-              px-12
-              py-2
-              font-bold
-              uppercase
-              text-xs
-              lg:text-lg
-              text-white
-            "
-          >
-            let's talk
-          </button>
-        </div>
-        <div
-          class="
-            border-2 border-community-stroke
-            bg-money-fill
-            lg:w-4/12
-            w-full
-            p-8
-            mt-10
-            lg:mt-0
-            text-center
-          "
-        >
-          <h4 class="text-lg lg:text-2xl font-medium">Money Management</h4>
-          <p class="mt-5 text-xs lg:text-lg">
-            Click the button below to join the fastest growing online community
-            of financial traders
-          </p>
-          <button
-            class="
-              mt-8
-              bg-trade-blue
-              rounded-full
-              px-12
-              py-2
-              font-bold
-              uppercase
-              text-xs
-              lg:text-lg
-              text-white
-            "
-          >
-            let's talk
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center py-32 bg-black text-white">
-      <h1 class="text-3xl lg:text-5xl font-bold">Community Testimonials</h1>
-      <p class="mt-4 text-sm lg:text-xl w-10/12 sm:w-4/12 mx-auto">
-        This community will give you the deepest insight into effective and
-        result oriented trading strategies.
-      </p>
-      <div class="mt-14 flex overflow-x-auto">
-        <div class="pl-32"></div>
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
-          alt="testimonial1"
-          class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
-          alt="testimonial2"
-          class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png"
-          alt="testimonial3"
-          class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
+          alt="charts"
         />
       </div>
     </div>
@@ -325,181 +302,80 @@
         lg:pl-36
         xl:pl-52
         lg:pr-20
-        xl:pr-32 xl:pt-60
-        pb-28
-        bg-black
-        text-white
+        xl:pr-44
+        py-20
       "
     >
-      <div class="w-9/12 sm:w-6/12 mx-auto sm:m-0">
+      <div class="w-9/12 sm:w-6/12 mx-auto">
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628260244/tradehub/Rectangle_11_hsg6hk.png"
-          alt="training"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125563/tradehub/Rectangle_94_u4zxaw.png"
+          alt="mentorship"
         />
       </div>
-      <div class="sm:w-5/12 xl:w-4/12 sm:mt-2 xl:mt-16 mt-10">
-        <p class="uppercase text-sm lg:text-lg">TRAINING & MENTORSHIP</p>
-        <h1 class="mt-4 text-3xl lg:text-5xl font-bold">
-          One-on-One Financial Trading Mentorship
-        </h1>
-        <p class="mt-8 text-sm lg:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+      <div class="mt-10 sm:m-0 sm:w-5/12 xl:w-5/12">
+        <p class="smalltitle">MENTORSHIP</p>
+        <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
+        <p class="mt-8 content">
+          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-        <a href="#"
-          ><button
-            class="
-              mt-12
-              bg-trade-blue2
-              rounded-full
-              px-12
-              py-3
-              font-bold
-              flex
-              uppercase
-              text-sm
-              lg:text-xl
-              items-center
-            "
-          >
-            let’s talk
+        <div class="flex justify-between flex-wrap">
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
             <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
-              alt="arrow"
-              class="ml-4"
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
             />
-          </button>
-        </a>
-      </div>
-    </div>
-
-    <div class="text-center bg-black text-white">
-      <div class="flex flex-col sm:flex-row justify-center items-center">
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628184622/tradehub/basic_goabzm.svg"
-          alt="basic"
-          class="w-8/12 sm:w-4/12"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628184624/tradehub/premium_noo8hs.svg"
-          alt="premium"
-          class="w-8/12 sm:w-4/12"
-        />
-      </div>
-    </div>
-
-    <div
-      class="
-        flex flex-col
-        sm:flex-row
-        justify-between
-        px-10
-        sm:px-16
-        py-24
-        lg:pl-36
-        xl:pl-52
-        lg:pr-20
-        xl:pr-32 xl:pt-60
-        pb-28
-        bg-black
-        text-white
-      "
-    >
-      <div class="sm:w-5/12 xl:w-4/12 mt-2 xl:mt-16">
-        <p class="uppercase text-sm lg:text-lg">MONEY MANAGEMENT</p>
-        <h1 class="mt-4 text-3xl lg:text-5xl font-bold">
-          High Yield Investment Portfolio Management
-        </h1>
-        <p class="mt-8 text-sm lg:text-xl">
-          J.E.T is a platform that gives out to the trading community content
-          that helps them do better in their trading journey, from Psychology to
-          the technicalities of trading itself.
-          <br />
-          <br />
-          It's run by an individual, Joe, who is experienced and vast in market
-          analysis and psychological stability, with years of failures and
-          success in the marketplace.
-        </p>
-        <a href="#"
-          ><button
-            class="
-              mt-12
-              bg-trade-blue2
-              rounded-full
-              px-12
-              py-3
-              font-bold
-              flex
-              uppercase
-              text-sm
-              lg:text-xl
-              items-center
-            "
-          >
-            join now
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
             <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
-              alt="arrow"
-              class="ml-4"
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
             />
-          </button>
-        </a>
-      </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 sm:m-0">
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628259495/tradehub/Rectangle_73_pcdftx.png"
-          alt="skyscrapers"
-        />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+          <div class="mt-10 flex items-start space-x-3 w-5/12">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue">Lorem ipsum</h1>
+              <p>Lorem ipsum dolor option ipsum dolor option</p>
+            </div>
+          </div>
+        </div>
+        <a href="#"><button class="mt-12 cta">learn more</button> </a>
       </div>
     </div>
 
-    <div class="text-center bg-black text-white">
-      <h1 class="text-3xl lg:text-5xl font-bold">Trading in 3 Categories</h1>
-      <p class="mt-4 text-sm lg:text-xl w-10/12 sm:w-5/12 mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore.
-      </p>
-      <div
-        class="
-          mt-8
-          flex flex-col
-          sm:flex-row
-          items-center
-          justify-between
-          w-8/12
-          mx-auto
-        "
-      >
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627984696/tradehub/1-9_np1k3x.svg"
-          alt="1-9"
-          class="w-8/12 sm:w-4/12"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627984696/tradehub/10_yo2qgo.svg"
-          alt="10"
-          class="w-8/12 sm:w-4/12"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627984696/tradehub/100_ghnb9h.svg"
-          alt="100"
-          class="w-8/12 sm:w-4/12"
-        />
-      </div>
-      <a href="#" class="mt-5 flex justify-center uppercase text-sm lg:text-lg"
-        >LET’S TALK
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1627928979/tradehub/arrow_mhkjx7.svg"
-          alt="arrow"
-          class="ml-4"
-      /></a>
-    </div>
+    <AboutMe />
+
+    <Testimonials />
 
     <GetinTouch />
+
     <Footer />
   </div>
 </template>
@@ -508,10 +384,4 @@
 export default {}
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-.dm {
-  font-family: 'DM Sans', sans-serif;
-}
-</style>
+<style></style>

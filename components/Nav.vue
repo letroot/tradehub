@@ -3,24 +3,23 @@
     class="
       absolute
       w-full
+      lg:w-10/12
       flex
       px-9
-      sm:px-20
-      py-3
+      sm:px-28
+      py-4
       justify-between
       dm
       items-center
       z-30
-      bg-opacity-50 bg-white
-      backdrop
     "
   >
-    <div class="w-full flex items-center justify-between">
+    <div class="w-full lg:w-auto flex items-center justify-between">
       <div>
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628259171/tradehub/logo_xme14g.svg"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
           alt="logo"
-          class="h-8 lg:h-12 xl:h-16"
+          class="h-8 lg:h-10 xl:h-12"
         />
       </div>
       <button
@@ -28,14 +27,15 @@
         @click="toggle"
       >
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628504157/tradehub/menu_tdq39n.svg"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629110281/tradehub/menu_kssonn.svg"
           alt="menu"
-          class="h-8"
+          class="h-6"
         />
       </button>
     </div>
     <div
       class="
+        space
         flex flex-col
         px-9
         sm:px-20
@@ -43,7 +43,7 @@
         lg:p-0 lg:flex-row lg:w-7/12
         w-full
         justify-between
-        text-white text-lg
+        text-blue text-lg
         lg:text-sm
         xl:text-base
         absolute

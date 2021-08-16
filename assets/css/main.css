@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+.space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.dm {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.cta {
+  @apply space text-white bg-blue2 rounded-md px-12 py-2 font-medium uppercase text-sm lg:text-xl;
+}
+
+.smalltitle {
+  @apply uppercase font-bold text-xs lg:text-xs text-blue4;
+}
+
+.title {
+  @apply text-blue text-2xl sm:text-3xl xl:text-4xl font-bold space;
+}
+
+.content {
+  @apply text-base sm:text-lg xl:text-xl text-dark;
+}

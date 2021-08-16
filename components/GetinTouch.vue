@@ -7,8 +7,8 @@
       xl:px-32
       lg:px-14
       px-10
-      bg-black
-      text-white
+      bg-green
+      text-blue
       dm
     "
   >
@@ -18,9 +18,11 @@
         lg:text-4xl
         sm:text-3xl
         text-xl
-        sm:w-8/12 w-10/12
+        sm:w-8/12
+        w-10/12
         mx-auto
-        text-white text-center
+        text-center
+        space
       "
     >
       <h2>I bring deep expertise, extensive knowledge and experience.</h2>
@@ -31,14 +33,13 @@
         <input
           type="text"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
           "
@@ -47,14 +48,13 @@
         <input
           type="text"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
             mt-10
@@ -68,14 +68,13 @@
         <input
           type="email"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
           "
@@ -84,14 +83,13 @@
         <input
           type="number"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
             mt-10
@@ -105,14 +103,13 @@
         <input
           type="email"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
           "
@@ -121,14 +118,13 @@
         <input
           type="text"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             sm:w-5/12
             w-full
             py-2
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
             mt-10
@@ -142,13 +138,12 @@
         <textarea
           type="text"
           class="
-            border-b border-white
-            bg-black
+            border-b border-blue
+            bg-transparent
             w-full
             py-1
             px-5
-            text-white
-            placeholder-white
+            placeholder-blue
             lg:text-xl
             focus:outline-none
           "
@@ -157,25 +152,7 @@
       </div>
 
       <div class="xl:mt-10 mt-10 w-full flex justify-center">
-        <a href="#"
-          ><button
-            class="
-              mt-12
-              bg-trade-blue2
-              rounded-full
-              px-12
-              py-3
-              font-bold
-              flex
-              uppercase
-              text-sm
-              lg:text-xl
-              items-center
-            "
-          >
-            send message
-          </button>
-        </a>
+        <a href="#"><button class="mt-12 cta">send message</button> </a>
       </div>
     </div>
   </div>

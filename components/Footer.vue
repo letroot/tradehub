@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center py-14 dm">
     <img
-      src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628259171/tradehub/logo_xme14g.svg"
+      src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
       alt="logo"
       class="h-12 lg:h-auto"
     />

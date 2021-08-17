@@ -173,7 +173,6 @@
       <button class="cta">join now</button>
     </div>
 
-    <GetinTouch />
     <Footer />
   </div>
 </template>

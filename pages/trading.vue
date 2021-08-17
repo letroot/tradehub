@@ -32,7 +32,8 @@
               text-dark
             "
           >
-            High value trading for prop firms and high net worth individuals.
+            Profitable, high value trading with strict risk management for prop
+            firms and high net worth individuals.
           </h2>
           <button class="cta text-white mt-10">LEARN MORE</button>
         </div>

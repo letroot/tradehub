@@ -76,7 +76,7 @@
         py-20
       "
     >
-      <div class="sm:w-5/12 xl:w-5/12">
+      <div class="sm:w-5/12 xl:w-5/12 order-2 sm:order-1 mt-10 lg:m-0">
         <p class="smalltitle">THE COMMUNITY</p>
         <h1 class="mt-4 title">
           Gain Proven Insights into Effective Trading Strategies
@@ -129,7 +129,7 @@
         </div>
         <a href="#"><button class="mt-12 cta">learn more</button> </a>
       </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 lg:m-0">
+      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 lg:m-0 order-1 sm:order-2">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
           alt="charts"
@@ -149,7 +149,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Community :: Joe Elite TradeHub',
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

@@ -178,7 +178,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Mentorship :: Joe Elite TradeHub',
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

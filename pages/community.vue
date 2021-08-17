@@ -40,6 +40,29 @@
             result-oriented community of traders, for free.
           </h2>
           <div class="text-white mt-10 flex space-x-8">
+            <a href="https://t.me/ICTFlashcardDrills">
+              <button
+                class="
+                  space
+                  text-white
+                  bg-blue2
+                  rounded-md
+                  px-7
+                  sm:px-12
+                  py-2
+                  font-medium
+                  uppercase
+                  text-sm
+                  lg:text-xl
+                  hover:shadow-btn
+                  transition
+                  duration-500
+                  whitespace-nowrap
+                "
+              >
+                JOIN NOW
+              </button>
+            </a>
             <button
               class="
                 space
@@ -59,28 +82,7 @@
                 whitespace-nowrap
               "
             >
-              JOIN NOW
-            </button>
-            <button
-              class="
-                space
-                text-white
-                bg-blue2
-                rounded-md
-                px-7
-                sm:px-12
-                py-2
-                font-medium
-                uppercase
-                text-sm
-                lg:text-xl
-                hover:shadow-btn
-                transition
-                duration-500
-                whitespace-nowrap
-              "
-            >
-              Hire Now
+              Hire Joe
             </button>
           </div>
         </div>
@@ -96,7 +98,9 @@
     <Testimonials />
 
     <div class="mt-8 w-full flex justify-center">
-      <button class="cta">join now</button>
+      <a href="https://t.me/ICTFlashcardDrills"
+        ><button class="cta">join now</button></a
+      >
     </div>
 
     <div
@@ -176,7 +180,9 @@
 
     <Testimonials />
     <div class="py-8 w-full flex justify-center">
-      <button class="cta">join now</button>
+      <a href="https://t.me/ICTFlashcardDrills"
+        ><button class="cta">join now</button></a
+      >
     </div>
 
     <Footer />

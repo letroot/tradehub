@@ -35,7 +35,9 @@
             J.E.T. is a platform that gives out to the trading community content
             that helps them do better in their trading journey.
           </h2>
-          <button class="cta text-white mt-10">JOIN NOW</button>
+          <a href="https://t.me/ICTFlashcardDrills"
+            ><button class="cta text-white mt-10">JOIN NOW</button></a
+          >
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img

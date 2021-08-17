@@ -35,7 +35,9 @@
             Get one-on-one sessions with me and learn the insights I have gained
             over several years. Lorem ipsum lorem ipsum.
           </h2>
-          <button class="cta text-white mt-10">JOIN NOW</button>
+          <a href="https://t.me/ICTFlashcardDrills"
+            ><button class="cta text-white mt-10">JOIN NOW</button></a
+          >
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
@@ -49,7 +51,9 @@
     <Testimonials />
 
     <div class="mt-8 w-full flex justify-center">
-      <button class="cta">join now</button>
+      <a href="https://t.me/ICTFlashcardDrills"
+        ><button class="cta">join now</button></a
+      >
     </div>
 
     <div
@@ -158,7 +162,9 @@
 
     <Testimonials />
     <div class="py-8 w-full flex justify-center">
-      <button class="cta">join now</button>
+      <a href="https://t.me/ICTFlashcardDrills"
+        ><button class="cta">join now</button></a
+      >
     </div>
 
     <Footer />

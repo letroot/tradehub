@@ -145,7 +145,9 @@
 
     <Testimonials />
     <div class="py-8 w-full flex justify-center">
-      <button class="cta">join now</button>
+      <a href="https://t.me/ICTFlashcardDrills"
+        ><button class="cta">join now</button></a
+      >
     </div>
 
     <Footer />

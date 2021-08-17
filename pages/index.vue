@@ -77,7 +77,7 @@
             Gain Proven Insights into Effective Trading Strategies
           </h4>
           <p class="mt-5 text-sm lg:text-lg text-blue5">
-            J.E.T is a platform that gives out to the trading community content
+            J.E.T. is a platform that gives out to the trading community content
             that helps them do better in their trading journey, from Psychology
             to the technicalities of trading itself.
           </p>
@@ -178,6 +178,8 @@
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213784/tradehub/testimonial4_a3bqk7.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215926/tradehub/testimonial21_gqx8jn.png"
     />
 
     <div
@@ -430,6 +432,8 @@
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213833/tradehub/testimonial7_bksove.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213788/tradehub/testimonial6_qisfid.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213779/tradehub/testimonial5_cgjtm7.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213859/tradehub/testimonial10_bblhdr.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
     />
 
     <Footer />

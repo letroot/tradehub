@@ -63,11 +63,11 @@
         'lg:flex': !isopen,
       }"
     >
-      <p><a href="/">Home</a></p>
-      <p><a href="/community">Community</a></p>
-      <p><a href="/mentorship">Mentorship</a></p>
-      <p><a href="/trading">Money Management</a></p>
-      <p><a href="#">About</a></p>
+      <p class="nav-hover"><a href="/">Home</a></p>
+      <p class="nav-hover"><a href="/community">Community</a></p>
+      <p class="nav-hover"><a href="/mentorship">Mentorship</a></p>
+      <p class="nav-hover"><a href="/trading">Money Management</a></p>
+      <p class="nav-hover"><a href="#">About</a></p>
     </div>
   </div>
 </template>

@@ -8,8 +8,7 @@
       py-14
       px-8
       sm:px-20
-      lg:w-8/12
-      justify-between
+      justify-center
     "
   >
     <img
@@ -17,17 +16,8 @@
       alt="logo"
       class="h-12 lg:h-auto"
     />
-    <div
-      class="
-        mt-9
-        sm:m-0
-        flex 
-        w-full
-        sm:w-7/12
-        justify-between
-        space
-        text-blue
-      "
+    <!-- <div
+      class="mt-9 sm:m-0 flex w-full sm:w-7/12 justify-between space text-blue"
     >
       <div>
         <h1 class="font-bold text-lg">Links</h1>
@@ -35,7 +25,7 @@
           <a href="#">About</a>
           <a href="/community">Community</a>
           <a href="/mentorship">Mentorship</a>
-          <a href="#">Money Management</a>
+          <a href="/trading">Money Management</a>
         </div>
       </div>
       <div>
@@ -46,7 +36,7 @@
           <a href="#">Quick Contact</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

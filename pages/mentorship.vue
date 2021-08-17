@@ -52,6 +52,8 @@
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215926/tradehub/testimonial20_nrhudu.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215926/tradehub/testimonial21_gqx8jn.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial18_b41h5n.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215925/tradehub/testimonial22_ssbzrm.png"
     />
 
     <div class="mt-8 w-full flex justify-center">
@@ -168,6 +170,8 @@
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213788/tradehub/testimonial6_qisfid.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213833/tradehub/testimonial7_bksove.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213836/tradehub/testimonial8_d6yde9.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213784/tradehub/testimonial4_a3bqk7.png"
     />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"

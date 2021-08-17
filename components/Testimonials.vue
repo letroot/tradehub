@@ -19,13 +19,29 @@
         alt="testimonial3"
         class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
       />
+      <img
+        :src="img4"
+        alt="testimonial4"
+        class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
+      />
+      <img
+        :src="img5"
+        alt="testimonial5"
+        class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
+      />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: { img1: String, img2: String, img3: String },
+  props: {
+    img1: String,
+    img2: String,
+    img3: String,
+    img4: String,
+    img5: String,
+  },
 }
 </script>
 

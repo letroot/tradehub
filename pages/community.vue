@@ -88,7 +88,7 @@
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109716/tradehub/hero_crgpsy.svg"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629238683/tradehub/community-graphic_r2hdo8.svg"
             alt="hero"
           />
         </div>

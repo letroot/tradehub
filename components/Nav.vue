@@ -3,7 +3,8 @@
     class="
       absolute
       w-full
-      lg:w-10/12
+      lg:w-11/12
+      xl:w-10/12
       flex
       px-9
       sm:px-28
@@ -40,7 +41,8 @@
         px-9
         sm:px-20
         py-9
-        lg:p-0 lg:flex-row lg:w-7/12
+        lg:p-0 lg:flex-row lg:w-9/12
+        xl:w-7/12
         w-full
         justify-between
         text-blue text-lg
@@ -65,7 +67,7 @@
       <p><a href="/community">Community</a></p>
       <p><a href="/mentorship">Mentorship</a></p>
       <p><a href="/trading">Money Management</a></p>
-      <p><a href="/about">About</a></p>
+      <p><a href="#">About</a></p>
     </div>
   </div>
 </template>

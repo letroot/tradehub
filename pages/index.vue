@@ -1,20 +1,8 @@
 <template>
   <div class="dm">
     <Nav />
-    <div class="h-screen bg-white relative">
-      <div
-        class="
-          xl:px-44
-          sm:px-20
-          px-8
-          pt-28
-          lg:pt-52
-          text-blue
-          flex flex-col
-          lg:flex-row
-          justify-between
-        "
-      >
+    <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-white relative">
+      <div class="text-blue flex flex-col lg:flex-row justify-between">
         <div class="lg:w-6/12">
           <h1
             class="

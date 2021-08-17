@@ -15,7 +15,7 @@
               space
             "
           >
-            Gain Proven Insights into Effective Trading Strategies
+            Join Our Community for Profitable Trading Strategies
           </h1>
           <h2
             class="

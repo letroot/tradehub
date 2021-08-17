@@ -432,8 +432,6 @@
 
     <Testimonials />
 
-    <GetinTouch />
-
     <Footer />
   </div>
 </template>

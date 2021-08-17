@@ -2,29 +2,31 @@
   <div class="pt-20">
     <p class="smalltitle text-center">TESTIMONIALS</p>
     <h1 class="mt-4 title text-center">Testimonials from J.E.T. Members</h1>
-    <div class="py-10 bg-purple mt-14 flex overflow-x-auto">
-      <div class="pl-32"></div>
+    <div class="py-6 lg:py-10 bg-purple mt-14 flex overflow-x-auto">
+      <div class="pl-14 lg:pl-32"></div>
       <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
+        :src="img1"
         alt="testimonial1"
-        class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
+        class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
       />
       <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
+        :src="img2"
         alt="testimonial2"
-        class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
+        class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
       />
       <img
-        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png"
+        :src="img3"
         alt="testimonial3"
-        class="w-9/12 sm:w-6/12 lg:w-4/12 pr-16"
+        class="w-9/12 sm:w-6/12 lg:w-5/12 pr-16 lg:pr-24 object-contain"
       />
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: { img1: String, img2: String, img3: String },
+}
 </script>
 
 <style scoped></style>

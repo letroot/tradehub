@@ -174,7 +174,11 @@
       </div>
     </div>
 
-    <Testimonials />
+    <Testimonials
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
+    />
 
     <div
       class="
@@ -422,7 +426,11 @@
 
     <AboutMe />
 
-    <Testimonials />
+    <Testimonials
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213833/tradehub/testimonial7_bksove.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213788/tradehub/testimonial6_qisfid.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213779/tradehub/testimonial5_cgjtm7.png"
+    />
 
     <Footer />
   </div>

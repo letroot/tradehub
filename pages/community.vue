@@ -95,7 +95,11 @@
       </div>
     </div>
 
-    <Testimonials />
+    <Testimonials
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213859/tradehub/testimonial10_bblhdr.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/testimonial13_voukl4.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213823/tradehub/testimonial15_qdiyg8.png"
+    />
 
     <div class="mt-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
@@ -178,7 +182,11 @@
 
     <AboutMe />
 
-    <Testimonials />
+    <Testimonials
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215925/tradehub/testimonial22_ssbzrm.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213784/tradehub/testimonial4_a3bqk7.png"
+    />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
         ><button class="cta">join now</button></a

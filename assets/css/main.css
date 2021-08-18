@@ -14,7 +14,7 @@
 }
 
 .smalltitle {
-  @apply uppercase font-bold text-xs lg:text-xs text-blue4;
+  @apply uppercase font-bold text-sm tracking-wider lg:text-xs text-blue4;
 }
 
 .title {

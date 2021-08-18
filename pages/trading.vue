@@ -3,7 +3,7 @@
     <Nav />
     <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-orange relative">
       <div class="text-blue flex flex-col lg:flex-row justify-between">
-        <div class="lg:w-6/12">
+        <div class="lg:w-6/12 mt-12">
           <h1
             class="
               mt-5
@@ -32,13 +32,14 @@
               text-dark
             "
           >
-            Joe manages profitable, high value portfolio with strict risk management for prop firms and high net worth individuals.
+            Joe manages profitable, high value portfolio with strict risk
+            management for prop firms and high net worth individuals.
           </h2>
-          <button class="cta text-white mt-10">LEARN MORE</button>
+          <button class="cta text-white mt-6">HIRE JOE</button>
         </div>
-        <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
+        <div class="mt-6 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109716/tradehub/hero_crgpsy.svg"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629284644/tradehub/header-imgs/mmgt-herimg_rwheix.png"
             alt="hero"
           />
         </div>
@@ -46,15 +47,15 @@
     </div>
 
     <TradingTestimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213842/tradehub/testimonial16_drured.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/testimonial12_nib2l4.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213858/tradehub/testimonial11_c2b2g7.png"
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213842/tradehub/charts/testimonial16_drured.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/charts/testimonial12_nib2l4.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213858/tradehub/charts/testimonial11_c2b2g7.png"
       img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280152/tradehub/charts/new/image_9_cnk5yx.png"
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280151/tradehub/charts/new/image_8_pmzwt0.png"
     />
 
     <div class="mt-8 w-full flex justify-center">
-      <button class="cta">let's talk</button>
+      <button class="cta">let's WORK TOGETHER</button>
     </div>
 
     <div
@@ -76,14 +77,14 @@
         />
       </div>
       <div class="mt-10 lg:m-0 sm:w-8/12 lg:w-5/12 mx-auto">
-        <p class="smalltitle">WEALTH MANAGEMENT</p>
+        <p class="smalltitle">MONEY MANAGEMENT</p>
         <h1 class="mt-4 title">
-          Money Management for Proprietary Firms & High net worth Individuals
+          Money Management for Proprietary Firms & High Net Worth Individuals
         </h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          With proven strategies, and effective risk management of 0.25-1% max
+          per trade position utilized , you can expect profitability over time
+          and over a series of trades.
         </p>
         <div class="flex justify-between flex-wrap">
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -93,61 +94,68 @@
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                1 - 9 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                This is the bottom tier of asset volume: 1 to 9 million USD
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-6/12">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                10 - 99 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                The mid-tier of tradeable asset volume is within the range of 10
+                to 99 million USD
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-6/12">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                > 100 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                This category of management is for volume greater than $100m
               </p>
             </div>
           </div>
         </div>
-        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+        <a href="#"><button class="mt-12 cta">hire joe</button> </a>
       </div>
     </div>
 
-    <div class="lg:py-8 pb-12 w-full flex justify-center">
-      <button class="cta">let's talk</button>
+    <div
+      class="
+        text-center
+        py-14
+        px-16
+        bg-orange
+        sm:w-9/12
+        mx-auto
+        sm:rounded-2xl sm:shadow-about
+      "
+    >
+      <p class="smalltitle">GET STARTED</p>
+      <h1 class="mt-4 text-blue text-lg sm:text-xl xl:text-2xl font-bold space">
+        Trials can be done to confirm Joe's competency before proceeding to live
+        trading. You can also conduct remote/live interview with Joe, to
+        ascertain identity and confirm credibility.
+      </h1>
     </div>
-
-    <AboutMe />
 
     <TradingTestimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/charts/testimonial14_pxjcaw.png"
@@ -158,7 +166,7 @@
     />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
-        ><button class="cta">let's talk</button></a
+        ><button class="cta">hire joe</button></a
       >
     </div>
 

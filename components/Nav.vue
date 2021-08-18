@@ -69,7 +69,6 @@
       <p class="nav-hover"><a href="/community">Community</a></p>
       <p class="nav-hover"><a href="/mentorship">Mentorship</a></p>
       <p class="nav-hover"><a href="/trading">Money Management</a></p>
-      <p class="nav-hover"><a href="#">About</a></p>
     </div>
   </div>
 </template>

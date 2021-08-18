@@ -8,7 +8,9 @@
       py-14
       px-8
       sm:px-20
-      justify-center
+      justify-between
+      lg:w-7/12
+      xl:w-8/12
     "
   >
     <a href="/">

@@ -54,8 +54,8 @@
         An experienced financial trader.
       </h1>
       <h2 class="text-center content mt-4 w-11/12 lg:w-6/12 mx-auto">
-        Let work togerther lrem ipsum lorem ipsum Let work togerther lrem ipsum
-        lorem ipsum
+        I'm inviting you to the most rewarding, profit-driven and
+        result-oriented community of traders, for free.
       </h2>
 
       <div class="mt-16 flex flex-col lg:flex-row justify-center lg:space-x-16">
@@ -76,7 +76,7 @@
           <h4 class="mt-4 text-xl lg:text-3xl font-bold space text-blue2">
             Gain Proven Insights into Effective Trading Strategies
           </h4>
-          <p class="mt-5 text-sm lg:text-lg text-blue5">
+          <p class="mt-5 text-sm lg:text-lg text-blue5 relative z-20">
             J.E.T. is a platform that gives out to the trading community content
             that helps them do better in their trading journey, from Psychology
             to the technicalities of trading itself.
@@ -130,13 +130,14 @@
             relative
           "
         >
-          <p class="smalltitle">LEVEL UP</p>
+          <p class="smalltitle">PRIVATE MENTORSHIP</p>
           <h4 class="mt-4 text-xl lg:text-3xl font-bold space text-blue2">
             Join the Premium Mentorship Circle
           </h4>
-          <p class="mt-5 text-sm lg:text-lg text-blue5">
-            Get one-on-one sessions with me and learn the insights I have gained
-            over several years. Lorem ipsum lorem ipsum.
+          <p class="mt-5 text-sm lg:text-lg text-blue5 relative z-20">
+            Have one-on-one sessions with me and learn the insights I have gained
+            over several years. You get direct access to ask specific questions and to
+            review your trading approach and strategy on an individual basis
           </p>
           <button
             class="
@@ -201,14 +202,14 @@
         />
       </div>
       <div class="mt-10 lg:m-0 sm:w-8/12 lg:w-5/12 mx-auto">
-        <p class="smalltitle">WEALTH MANAGEMENT</p>
+        <p class="smalltitle">MONEY MANAGEMENT</p>
         <h1 class="mt-4 title">
-          Money Management for Proprietary Firms & High net worth Individuals
+          Money Management for Proprietary Firms & High Net Worth Individuals
         </h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          With proven strategies, and effective risk management of 0.25-1% max
+          per trade position utilized , you can expect profitability over time
+          and over a series of trades.
         </p>
         <div class="flex justify-between flex-wrap">
           <div class="mt-10 flex items-start space-x-3 w-5/12">
@@ -218,53 +219,47 @@
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                1 - 9 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                This is the bottom tier of asset volume: 1 to 9 million USD
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-6/12">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                10 - 99 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                The mid-tier of tradeable asset volume is within the range of 10
+                to 99 million USD
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-6/12">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue font-bold text-xl">
+                > 100 million USD
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                This category of management is for volume greater than $100m
               </p>
             </div>
           </div>
         </div>
-        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+        <a href="mailto:dejoea7@gmail.com"><button class="mt-12 cta">hire joe</button> </a>
       </div>
     </div>
 
@@ -287,54 +282,67 @@
           Gain Proven Insights into Effective Trading Strategies
         </h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          Joe Elite TradeHub gives insight into the market place using
+          Institutional Orderflow strategies, with constant flashcards being
+          sent from time to time to the Telegram channel, as well as psychology
+          material to help you gain psychological stability as you engage the
+          market place.
         </p>
         <div class="mt-6">
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">Level Up</h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                It's all encompassing to make you that rounded trader you want
+                to be. You're sure to learn a lot by just checking through all
+                flashcards sent, and replicating it on your charts.
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Master the ICT Methodology
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                It's built fully on InnerCircleTrader's methodologies, popular
+                known as ICT (Michael J. Huddleston), who is my mentor.
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Gain True Mastery
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                Learn and internalize the setups through repetition and chart
+                time. It will help reinforce the rules and help you remember what to look for on
+                each setup, shortening your learning curve significantly
               </p>
             </div>
           </div>
         </div>
-        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+        <a href="https://t.me/ICTFlashcardDrills"
+          ><button class="mt-12 cta">join free now</button>
+        </a>
       </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto lg:m-0 order-1 lg:order-2">
+      <div class="w-9/12 sm:w-6/12 mx-auto mt-16 lg:m-0 order-1 lg:order-2">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
           alt="charts"

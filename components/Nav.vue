@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-full bg-transparent z-30"
+    class="fixed w-full bg-transparent transition duration-500 z-30"
     :class="{ 'bg-white': scrollPosition > 150 }"
   >
     <div

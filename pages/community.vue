@@ -35,7 +35,7 @@
             <br />
             An experienced financial market trader for prop firms and high net
             worth individuals.
-            <br />
+            <br /><br />
             I'm inviting you to the most rewarding, profit-driven and
             result-oriented community of traders, for free.
           </h2>

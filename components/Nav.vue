@@ -17,11 +17,13 @@
   >
     <div class="w-full lg:w-auto flex items-center justify-between">
       <div>
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
-          alt="logo"
-          class="h-8 lg:h-10 xl:h-12"
-        />
+        <a href="/">
+          <img
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
+            alt="logo"
+            class="h-8 lg:h-10 xl:h-12"
+          />
+        </a>
       </div>
       <button
         class="lg:hidden focus:outline-none flex justify-center"

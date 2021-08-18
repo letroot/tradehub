@@ -32,8 +32,7 @@
               text-dark
             "
           >
-            Profitable, high value trading with strict risk management for prop
-            firms and high net worth individuals.
+            Joe manages profitable, high value portfolio with strict risk management for prop firms and high net worth individuals.
           </h2>
           <button class="cta text-white mt-10">LEARN MORE</button>
         </div>
@@ -46,12 +45,12 @@
       </div>
     </div>
 
-    <Testimonials
+    <TradingTestimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213842/tradehub/testimonial16_drured.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/testimonial12_nib2l4.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213858/tradehub/testimonial11_c2b2g7.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215925/tradehub/testimonial22_ssbzrm.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280152/tradehub/charts/new/image_9_cnk5yx.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280151/tradehub/charts/new/image_8_pmzwt0.png"
     />
 
     <div class="mt-8 w-full flex justify-center">
@@ -150,16 +149,16 @@
 
     <AboutMe />
 
-    <Testimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213859/tradehub/testimonial10_bblhdr.png"
+    <TradingTestimonials
+      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/charts/testimonial14_pxjcaw.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/charts/testimonial13_voukl4.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213840/tradehub/testimonial17_vnporp.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/testimonial14_pxjcaw.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213823/tradehub/testimonial15_qdiyg8.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280150/tradehub/charts/new/image_7_nmleep.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/testimonial12_nib2l4.png"
     />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
-        ><button class="cta">join now</button></a
+        ><button class="cta">let's talk</button></a
       >
     </div>
 

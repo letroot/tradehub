@@ -1,5 +1,8 @@
 <template>
-  <div class="fixed w-full bg-white z-30">
+  <div
+    class="fixed w-full bg-transparent z-30"
+    :class="{ 'bg-white': scrollPosition > 150 }"
+  >
     <div
       class="
         lg:w-11/12
@@ -76,12 +79,19 @@ export default {
   data() {
     return {
       isopen: false,
+      scrollPosition: null,
     }
   },
   methods: {
     toggle() {
       this.isopen = !this.isopen
     },
+    updateScroll() {
+      this.scrollPosition = window.scrollY
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll)
   },
 }
 </script>

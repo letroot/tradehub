@@ -11,11 +11,13 @@
       justify-center
     "
   >
-    <img
-      src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
-      alt="logo"
-      class="h-12 lg:h-auto"
-    />
+    <a href="/">
+      <img
+        src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
+        alt="logo"
+        class="h-12 lg:h-auto"
+      />
+    </a>
     <!-- <div
       class="mt-9 sm:m-0 flex w-full sm:w-7/12 justify-between space text-blue"
     >

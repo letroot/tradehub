@@ -35,7 +35,7 @@
             Joe manages profitable, high value portfolio with strict risk
             management for prop firms and high net worth individuals.
           </h2>
-          <button class="cta text-white mt-6">HIRE JOE</button>
+          <a href="mailto:dejoea7@gmail.com"><button class="cta text-white mt-6">HIRE JOE</button></a>
         </div>
         <div class="mt-6 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
@@ -55,7 +55,7 @@
     />
 
     <div class="mt-8 w-full flex justify-center">
-      <button class="cta">let's WORK TOGETHER</button>
+      <a href="mailto:dejoea7@gmail.com"><button class="cta">let's WORK TOGETHER</button></a>
     </div>
 
     <div
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <a href="#"><button class="mt-12 cta">hire joe</button> </a>
+        <a href="mailto:dejoea7@gmail.com"><button class="mt-12 cta">hire joe</button> </a>
       </div>
     </div>
 
@@ -165,7 +165,7 @@
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/testimonial12_nib2l4.png"
     />
     <div class="py-8 w-full flex justify-center">
-      <a href="https://t.me/ICTFlashcardDrills"
+      <a href="mailto:dejoea7@gmail.com"
         ><button class="cta">hire joe</button></a
       >
     </div>

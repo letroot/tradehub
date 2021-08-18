@@ -63,7 +63,7 @@
                 JOIN NOW
               </button>
             </a>
-            <a href="mailto:dejoea7@gmail.com"
+            <a href="mailto:dejoea7@gmail.com"  
               ><button
                 class="
                   space

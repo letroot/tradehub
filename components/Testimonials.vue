@@ -1,7 +1,7 @@
 <template>
   <div class="pt-20">
     <p class="smalltitle text-center">TESTIMONIALS</p>
-    <h1 class="mt-4 title text-center">Testimonials from J.E.T. Members</h1>
+    <h1 class="mt-8 title text-center">Testimonials from J.E.T. Members</h1>
     <div class="py-6 lg:py-10 bg-purple mt-14 flex overflow-x-auto">
       <div class="pl-14 lg:pl-32"></div>
       <img

@@ -62,7 +62,7 @@
       >
     </div>
 
-    <div
+   <div
       class="
         flex flex-col
         lg:flex-row
@@ -84,65 +84,41 @@
         <p class="smalltitle">MENTORSHIP</p>
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          Gain direct access to ask specific questions and to review your trading
+          approach and strategy on an individual basis
         </p>
-        <div class="flex justify-between flex-wrap">
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+        <div class="mt-6">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">Insights and Strategy</h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                lorem psum
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Learn Methodology
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                lorem ipsum
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
+
         </div>
-        <a href="#"><button class="mt-12 cta">contact me</button> </a>
+        <a href="/mentorship"><button class="mt-12 cta">learn more</button> </a>
       </div>
     </div>
 

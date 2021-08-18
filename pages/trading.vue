@@ -83,7 +83,7 @@
         </h1>
         <p class="mt-8 content">
           With proven strategies, and effective risk management of 0.25-1% max
-          per trade position utilized , you can expect profitability over time
+          per trade position utilized, you can expect profitability over time
           and over a series of trades.
         </p>
         <div class="flex justify-between flex-wrap">

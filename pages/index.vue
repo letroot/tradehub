@@ -135,9 +135,10 @@
             Join the Premium Mentorship Circle
           </h4>
           <p class="mt-5 text-sm lg:text-lg text-blue5 relative z-20">
-            Have one-on-one sessions with me and learn the insights I have gained
-            over several years. You get direct access to ask specific questions and to
-            review your trading approach and strategy on an individual basis
+            Have one-on-one sessions with me and learn the insights I have
+            gained over several years. You get direct access to ask specific
+            questions and to review your trading approach and strategy on an
+            individual basis
           </p>
           <button
             class="
@@ -208,7 +209,7 @@
         </h1>
         <p class="mt-8 content">
           With proven strategies, and effective risk management of 0.25-1% max
-          per trade position utilized , you can expect profitability over time
+          per trade position utilized, you can expect profitability over time
           and over a series of trades.
         </p>
         <div class="flex justify-between flex-wrap">
@@ -259,7 +260,9 @@
             </div>
           </div>
         </div>
-        <a href="mailto:dejoea7@gmail.com"><button class="mt-12 cta">hire joe</button> </a>
+        <a href="mailto:dejoea7@gmail.com"
+          ><button class="mt-12 cta">hire joe</button>
+        </a>
       </div>
     </div>
 
@@ -332,8 +335,9 @@
               </h1>
               <p class="content2">
                 Learn and internalize the setups through repetition and chart
-                time. It will help reinforce the rules and help you remember what to look for on
-                each setup, shortening your learning curve significantly
+                time. It will help reinforce the rules and help you remember
+                what to look for on each setup, shortening your learning curve
+                significantly
               </p>
             </div>
           </div>
@@ -372,65 +376,45 @@
         <p class="smalltitle">MENTORSHIP</p>
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          Gain direct access to ask specific questions and to review your trading
+          approach and strategy on an individual basis
         </p>
-        <div class="flex justify-between flex-wrap">
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+        <div class="mt-6">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">Basic Mentorship Plan</h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                $500 charge<br>
+                Access to a private mentorship channel, and a discussion group for students<br>
+                1 one-on-one Zoom session with me.<br>
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Premium Mentorship Plan
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                $1,500 charge<br>
+                Access to a private mentorship channel, and a discussion group for students<br>
+                3 one-on-one Zoom sessions with me.<br>
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
-          <div class="mt-10 flex items-start space-x-3 w-5/12">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
-              alt="ellipse"
-              class="mt-2"
-            />
-            <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
-              <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
-              </p>
-            </div>
-          </div>
+
         </div>
-        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+        <a href="/mentorship"><button class="mt-12 cta">learn more</button> </a>
       </div>
     </div>
 

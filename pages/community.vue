@@ -23,7 +23,7 @@
               text-base
               sm:text-xl
               lg:text-xl
-              xl:text-2xl
+              xl:text-xl
               w-11/12
               sm:w-8/12
               lg:w-11/12
@@ -63,32 +63,34 @@
                 JOIN NOW
               </button>
             </a>
-            <button
-              class="
-                space
-                text-white
-                bg-blue2
-                rounded-md
-                px-7
-                sm:px-12
-                py-2
-                font-medium
-                uppercase
-                text-sm
-                lg:text-xl
-                hover:shadow-btn
-                transition
-                duration-500
-                whitespace-nowrap
-              "
-            >
-              Hire Joe
-            </button>
+            <a href="mailto:dejoea7@gmail.com"
+              ><button
+                class="
+                  space
+                  text-white
+                  bg-blue2
+                  rounded-md
+                  px-7
+                  sm:px-12
+                  py-2
+                  font-medium
+                  uppercase
+                  text-sm
+                  lg:text-xl
+                  hover:shadow-btn
+                  transition
+                  duration-500
+                  whitespace-nowrap
+                "
+              >
+                Hire Joe
+              </button>
+            </a>
           </div>
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629238683/tradehub/community-graphic_r2hdo8.svg"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629288640/tradehub/header-imgs/comminity-herimg_a9zum7.png"
             alt="hero"
           />
         </div>
@@ -97,15 +99,15 @@
 
     <Testimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213859/tradehub/testimonial10_bblhdr.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/testimonial13_voukl4.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213823/tradehub/testimonial15_qdiyg8.png"
+      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
+      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
       img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213779/tradehub/testimonial5_cgjtm7.png"
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215926/tradehub/testimonial21_gqx8jn.png"
     />
 
-    <div class="mt-8 w-full flex justify-center">
+    <div class="mt-12 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
-        ><button class="cta">join now</button></a
+        ><button class="cta">join community now</button></a
       >
     </div>
 
@@ -127,54 +129,67 @@
           Gain Proven Insights into Effective Trading Strategies
         </h1>
         <p class="mt-8 content">
-          High yield trading for prop Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+          Joe Elite TradeHub gives insight into the market place using
+          Institutional Orderflow strategies, with constant flashcards being
+          sent from time to time to the Telegram channel, as well as psychology
+          material to help you gain psychological stability as you engage the
+          market place.
         </p>
         <div class="mt-6">
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">Level Up</h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                It's all encompassing to make you that rounded trader you want
+                to be. You're sure to learn a lot by just checking through all
+                flashcards sent, and replicating it on your charts.
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Master the ICT Methodology
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                It's built fully on InnerCircleTrader's methodologies, popular
+                known as ICT (Michael J. Huddleston), who is my mentor.
               </p>
             </div>
           </div>
-          <div class="mt-10 flex items-start space-x-3 w-9/12">
+          <div class="mt-10 flex items-start space-x-3 w-full">
             <img
               src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
               alt="ellipse"
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue">Lorem ipsum</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Gain True Mastery
+              </h1>
               <p class="content2">
-                Lorem ipsum dolor option ipsum dolor option
+                Learn and internalize the setups through repetition and chart
+                time. It will help reinforce the rules and help you remember what to look for on
+                each setup, shortening your learning curve significantly
               </p>
             </div>
           </div>
         </div>
-        <a href="#"><button class="mt-12 cta">learn more</button> </a>
+        <a href="https://t.me/ICTFlashcardDrills"
+          ><button class="mt-12 cta">join free now</button>
+        </a>
       </div>
-      <div class="w-9/12 sm:w-6/12 mx-auto mt-10 lg:m-0 order-1 lg:order-2">
+      <div class="w-9/12 sm:w-6/12 mx-auto mt-16 lg:m-0 order-1 lg:order-2">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629125555/tradehub/Rectangle_91_ax8w1j.png"
           alt="charts"
@@ -188,8 +203,8 @@
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215925/tradehub/testimonial22_ssbzrm.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213784/tradehub/testimonial4_a3bqk7.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213840/tradehub/testimonial17_vnporp.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213799/tradehub/testimonial14_pxjcaw.png"
+      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213788/tradehub/testimonial6_qisfid.png"
+      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
     />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"

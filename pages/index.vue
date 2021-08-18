@@ -436,7 +436,7 @@
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
     />
 
-    <Footer />
+    <GeneralFooter />
   </div>
 </template>
 

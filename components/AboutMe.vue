@@ -10,10 +10,9 @@
       sm:rounded-2xl sm:shadow-about
     "
   >
-    <p class="smalltitle">ABOUT ME</p>
-    <h1 class="mt-4 text-blue text-lg sm:text-xl xl:text-2xl font-bold space">
-      Having traded for xy years, I understand the markets and lorem ipsum the
-      principles of Michael Huddleston yielding
+    <p class="smalltitle text-center">ABOUT ME</p>
+    <h1 class="mt-4 text-blue text-center text-lg sm:text-xl xl:text-2xl font-bold mx-auto  w-10/12">
+      I'm Joe. An experienced financial market trader for prop firms and high net worth individuals.
     </h1>
   </div>
 </template>

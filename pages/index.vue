@@ -81,6 +81,7 @@
             that helps them do better in their trading journey, from Psychology
             to the technicalities of trading itself.
           </p>
+          <a href="/community">
           <button
             class="
               mt-8
@@ -107,7 +108,7 @@
               >></span
             >
           </button>
-
+          </a>
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629114173/tradehub/motif-1_j2lxob.svg"
             alt="motif-1"
@@ -140,6 +141,7 @@
             questions and to review your trading approach and strategy on an
             individual basis
           </p>
+          <a href="/mentorship">
           <button
             class="
               mt-8
@@ -166,7 +168,7 @@
               >></span
             >
           </button>
-
+          </a>
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629114938/tradehub/motif-2_dydlu7.svg"
             alt="motif-3"
@@ -387,11 +389,14 @@
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue text-lg font-bold">Basic Mentorship Plan</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Insights and Strategy
+              </h1>
               <p class="content2">
-                $500 charge<br>
-                Access to a private mentorship channel, and a discussion group for students<br>
-                1 one-on-one Zoom session with me.<br>
+                You gain clear insights into my strategy and methodology that
+                I've honed for several years, hence giving you a quick route to
+                mastery of these concepts and massively improving your
+                efficiency in the market place.
               </p>
             </div>
           </div>
@@ -403,17 +408,37 @@
             />
             <div class="">
               <h1 class="space text-blue text-lg font-bold">
-                Premium Mentorship Plan
+                Learn Methodology
               </h1>
               <p class="content2">
-                $1,500 charge<br>
-                Access to a private mentorship channel, and a discussion group for students<br>
-                3 one-on-one Zoom sessions with me.<br>
+                Learn how to trade like a professional with tested principles
+                and proven logical foundations that will see you spot recurring
+                patterns and tangibly improve your trading edge in the market
+                place, with positive outcomes over consecutive trades.
               </p>
             </div>
           </div>
 
+          <div class="mt-10 flex items-start space-x-3 w-full">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue text-lg font-bold">
+                Trading Psychology
+              </h1>
+              <p class="content2">
+                Your trading psychology, which accounts for 70% of your success
+                in the market place, will be enhanced with focused psychology
+                training. You will improve your patience, mental strength and
+                ultimately become a more stable trader.
+              </p>
+            </div>
+          </div>
         </div>
+
         <a href="/mentorship"><button class="mt-12 cta">learn more</button> </a>
       </div>
     </div>

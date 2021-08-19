@@ -26,7 +26,7 @@
       <div>
         <h1 class="font-bold text-lg">Links</h1>
         <div class="mt-4 space-y-2 flex flex-col">
-          <a href="#">About</a>
+          <a href="/">Home</a>
           <a href="/community">Community</a>
           <a href="/mentorship">Mentorship</a>
           <a href="/trading">Money Management</a>
@@ -35,9 +35,9 @@
       <div>
         <h1 class="font-bold text-lg">Contact</h1>
         <div class="mt-4 space-y-2 flex flex-col">
-          <a href="#">Email</a>
-          <a href="#">Telegram</a>
-          <a href="#">Quick Contact</a>
+          <a href="mailto:dejoea7@gmail.com">Email</a>
+          <a href="https://t.me/ICTFlashcardDrills">Telegram</a>
+
         </div>
       </div>
     </div>

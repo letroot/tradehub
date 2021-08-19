@@ -14,6 +14,7 @@
               font-bold
               sm:w-8/12
               lg:w-11/12
+              xl:w-full
               space
             "
           >
@@ -32,16 +33,16 @@
               text-dark
             "
           >
-            Get one-on-one sessions with me and learn the insights I have gained
-            over several years. Lorem ipsum lorem ipsum.
+            Gain direct access to ask specific questions and to review your
+            trading approach and strategy on an individual basis.
           </h2>
-          <a href="https://t.me/ICTFlashcardDrills"
-            ><button class="cta text-white mt-10">JOIN NOW</button></a
+          <a href="mailto:dejoea7@gmail.com"
+            ><button class="cta text-white mt-10">start NOW</button></a
           >
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109716/tradehub/hero_crgpsy.svg"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629332720/tradehub/header-imgs/mentorship-herimg_ltlwqz.png"
             alt="hero"
           />
         </div>
@@ -56,16 +57,17 @@
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215925/tradehub/testimonial22_ssbzrm.png"
     />
 
-    <div class="mt-8 w-full flex justify-center">
-      <a href="https://t.me/ICTFlashcardDrills"
-        ><button class="cta">join now</button></a
+    <div class="mt-16 w-full flex justify-center">
+      <a href="mailto:dejoea7@gmail.com"
+        ><button class="cta">join mentorship circle now</button></a
       >
     </div>
 
-   <div
+    <div
       class="
         flex flex-col
         lg:flex-row
+        align-bottom
         justify-between
         px-10
         sm:px-16
@@ -84,8 +86,8 @@
         <p class="smalltitle">MENTORSHIP</p>
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
-          Gain direct access to ask specific questions and to review your trading
-          approach and strategy on an individual basis
+          Gain direct access to ask specific questions and to review your
+          trading approach and strategy on an individual basis
         </p>
         <div class="mt-6">
           <div class="mt-10 flex items-start space-x-3 w-full">
@@ -95,9 +97,14 @@
               class="mt-2"
             />
             <div class="">
-              <h1 class="space text-blue text-lg font-bold">Insights and Strategy</h1>
+              <h1 class="space text-blue text-lg font-bold">
+                Insights and Strategy
+              </h1>
               <p class="content2">
-                lorem psum
+                You gain clear insights into my strategy and methodology that
+                I've honed for several years, hence giving you a quick route to
+                mastery of these concepts and massively improving your
+                efficiency in the market place.
               </p>
             </div>
           </div>
@@ -112,35 +119,37 @@
                 Learn Methodology
               </h1>
               <p class="content2">
-                lorem ipsum
+                Learn how to trade like a professional with tested principles
+                and proven logical foundations that will see you spot recurring
+                patterns and tangibly improve your trading edge in the market
+                place, with positive outcomes over consecutive trades.
               </p>
             </div>
           </div>
 
+          <div class="mt-10 flex items-start space-x-3 w-full">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629124904/tradehub/cirlce_pidfgf.svg"
+              alt="ellipse"
+              class="mt-2"
+            />
+            <div class="">
+              <h1 class="space text-blue text-lg font-bold">
+                Trading Psychology
+              </h1>
+              <p class="content2">
+                Your trading psychology, which accounts for 70% of your success
+                in the market place, will be enhanced with focused psychology
+                training. You will improve your patience, mental strength and
+                ultimately become a more stable trader.
+              </p>
+            </div>
+          </div>
         </div>
-        <a href="/mentorship"><button class="mt-12 cta">learn more</button> </a>
+        <a href="mailto:dejoea7@gmail.com"><button class="mt-12 cta">enrol now</button> </a>
       </div>
     </div>
 
-    <div class="pb-10">
-      <div class="flex flex-col sm:flex-row justify-center items-center">
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127549/tradehub/Group_107_j8b6ik.svg"
-          alt=""
-          class="w-9/12 sm:w-4/12"
-        />
-        <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629127548/tradehub/Group_108_o95xd5.svg"
-          alt=""
-          class="w-9/12 sm:w-4/12"
-        />
-      </div>
-      <div class="pb-8 w-full flex justify-center">
-        <button class="cta">let's talk</button>
-      </div>
-    </div>
-
-    <AboutMe />
 
     <Testimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213788/tradehub/testimonial6_qisfid.png"
@@ -151,7 +160,7 @@
     />
     <div class="py-8 w-full flex justify-center">
       <a href="https://t.me/ICTFlashcardDrills"
-        ><button class="cta">join now</button></a
+        ><button class="cta">start now</button></a
       >
     </div>
 

@@ -63,7 +63,7 @@
                 JOIN NOW
               </button>
             </a>
-            <a href="mailto:dejoea7@gmail.com"  
+            <a href="mailto:dejoea7@gmail.com"
               ><button
                 class="
                   space
@@ -90,7 +90,7 @@
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629288640/tradehub/header-imgs/comminity-herimg_a9zum7.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629327289/tradehub/header-imgs/comminity-herimg_vsnayi.png"
             alt="hero"
           />
         </div>

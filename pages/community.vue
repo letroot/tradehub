@@ -63,7 +63,7 @@
                 JOIN NOW
               </button>
             </a>
-            <a href="mailto:dejoea7@gmail.com"
+            <a href="/trading"
               ><button
                 class="
                   space
@@ -180,7 +180,7 @@
               <p class="content2">
                 Learn and internalize the setups through repetition and chart
                 time. It will help reinforce the rules and help you remember what to look for on
-                each setup, shortening your learning curve significantly
+                each setup, shortening your learning curve significantly.
               </p>
             </div>
           </div>

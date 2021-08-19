@@ -32,7 +32,7 @@
               text-dark
             "
           >
-            J.E.T. is a platform that gives out to the trading community content
+            Joe Elite TradeHub is a platform that gives out to the trading community content
             that helps them do better in their trading journey.
           </h2>
           <a href="https://t.me/ICTFlashcardDrills"
@@ -41,7 +41,7 @@
         </div>
         <div class="mt-12 lg:mt-0 mx-auto w-7/12 sm:w-5/12">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109716/tradehub/hero_crgpsy.svg"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629384065/tradehub/header-imgs/home-herimg_imty2b.png"
             alt="hero"
           />
         </div>

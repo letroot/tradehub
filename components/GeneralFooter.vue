@@ -13,6 +13,7 @@
       xl:w-8/12
     "
   >
+    <div class="flex flex-col">
     <a href="/">
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
@@ -20,6 +21,8 @@
         class="h-12 lg:h-auto"
       />
     </a>
+    <p class="mt-4 text-dark">Joe Elite TradeHub © 2021</p>
+    </div>
     <div
       class="mt-9 sm:m-0 flex w-full sm:w-7/12 justify-between space text-blue"
     >

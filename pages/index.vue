@@ -339,7 +339,7 @@
                 Learn and internalize the setups through repetition and chart
                 time. It will help reinforce the rules and help you remember
                 what to look for on each setup, shortening your learning curve
-                significantly
+                significantly.
               </p>
             </div>
           </div>

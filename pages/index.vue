@@ -139,7 +139,7 @@
             Have one-on-one sessions with me and learn the insights I have
             gained over several years. You get direct access to ask specific
             questions and to review your trading approach and strategy on an
-            individual basis
+            individual basis.
           </p>
           <a href="/mentorship">
           <button
@@ -379,7 +379,7 @@
         <h1 class="mt-4 title">One-on-one Lifetime Remote Mentorship</h1>
         <p class="mt-8 content">
           Gain direct access to ask specific questions and to review your trading
-          approach and strategy on an individual basis
+          approach and strategy on an individual basis.
         </p>
         <div class="mt-6">
           <div class="mt-10 flex items-start space-x-3 w-full">

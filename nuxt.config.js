@@ -12,7 +12,6 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
-    script: [{ src: 'pixel.js', type: 'text/javascript' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -34,7 +33,20 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-facebook-pixel-module',
   ],
+
+  facebook: {
+    pixelId: '984424319024714',
+    pixels: [
+      {
+        autoPageView: true,
+        disabled: false,
+        pixelId: '984424319024714',
+        routes: ['/community'],
+      },
+    ],
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

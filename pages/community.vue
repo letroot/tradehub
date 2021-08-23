@@ -37,7 +37,7 @@
             worth individuals.
             <br /><br />
             I'm inviting you to the most rewarding, profit-driven and
-            result-oriented community of traders, for free.
+            result-oriented community of traders on Telegram, for free.
           </h2>
           <div class="text-white mt-10 flex space-x-8">
             <a href="https://t.me/ICTFlashcardDrills">

@@ -55,7 +55,7 @@
       </h1>
       <h2 class="text-center content mt-4 w-11/12 lg:w-6/12 mx-auto">
         I'm inviting you to the most rewarding, profit-driven and
-        result-oriented community of traders, for free.
+        result-oriented community of traders on Telegram, for free.
       </h2>
 
       <div class="mt-16 flex flex-col lg:flex-row justify-center lg:space-x-16">

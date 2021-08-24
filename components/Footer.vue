@@ -13,7 +13,7 @@
     "
   >
     <div class="flex flex-col justify-center items-center">
-    <a class="block" href="/">
+    <a class="block" href="#">
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
         alt="logo"

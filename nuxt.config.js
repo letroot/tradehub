@@ -43,7 +43,7 @@ export default {
         autoPageView: true,
         disabled: false,
         pixelId: '984424319024714',
-        routes: ['/community'],
+        routes: ['/community', '/communityplus'],
       },
     ],
   },

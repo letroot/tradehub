@@ -1,8 +1,8 @@
 <template>
   <div class="pt-20">
     <p class="smalltitle text-center">MY CHARTS</p>
-    <h1 class="mt-4 title text-center">A Peek into How I Trade</h1>
-    <div class="py-6 lg:py-10 bg-purple mt-14 flex overflow-x-auto">
+    <h1 class="mt-2 title text-center">A Peek into How I Trade</h1>
+    <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x-auto">
       <div class="pl-14 lg:pl-32"></div>
       <img
         :src="img1"

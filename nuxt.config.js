@@ -45,6 +45,12 @@ export default {
         pixelId: '984424319024714',
         routes: ['/community', '/communityplus'],
       },
+      {
+        autoPageView: true,
+        disabled: false,
+        pixelId: '984424319024714',
+        routes: ['/freebook'],
+      },
     ],
   },
 

@@ -29,6 +29,33 @@
             <br />
             A special gift is waiting for you in your email.
           </h1>
+          <h2
+            class="
+              mt-6
+              mx-auto
+              font-medium
+              text-base
+              sm:text-xl
+              lg:text-xl
+              xl:text-2xl
+              w-11/12
+              sm:w-8/12
+              lg:w-7/12
+              text-dark
+            "
+          >
+            This course is only going to be available for 1 week and for just
+            100 people. That’s as many people as I’m willing to take.
+            <br />
+            <br />
+            See you
+            within the Elite TradeHub Community.
+            <br />
+            <br />
+            Cheers to Profitable Trading.
+            <br />
+            <br />
+          </h2>
           <div class="mt-12 text-center mx-auto w-full flex justify-center">
             <a href="https://joe-elite.trade"
               ><button class="cta">RETURN HOME</button></a
@@ -42,9 +69,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

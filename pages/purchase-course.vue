@@ -54,8 +54,8 @@
           mt-6
           font-medium
           text-base
-          sm:text-xl
-          lg:text-xl
+          sm:text-2xl
+          lg:text-2xl
           xl:text-2xl
           w-11/12
           sm:w-8/12
@@ -63,7 +63,10 @@
           text-dark
         "
       >
-        The course costs $20. Transfer the equivalent Bitcoin to the address below and send proof of payment <a class="underline text-blue4" target="_blank" href="mailto:joe@joe-elite.trade">here</a>
+        This course costs $20.
+        <br>
+
+        Transfer the equivalent Bitcoin to the address below and send proof of payment <a class="underline text-blue4" target="_blank" href="mailto:joe@joe-elite.trade">here</a>
       </h2>
       <h2
         id="btc-address"
@@ -90,37 +93,7 @@
           COPY BTC WALLET ADDRESS
         </button>
       </div>
-      <form
-        @submit.prevent
-        class="mt-14 flex flex-col items-center space-y-6 avenir-regular px-5"
-      >
-        <input
-          required
-          type="email"
-          v-model="email"
-          class="
-            border-2 border-gray-300
-            rounded-xl
-            lg:text-lg
-            xl:text-xl
-            py-2
-            px-5
-            xl:w-7/12
-            lg:w-8/12
-            sm:w-9/12
-            w-full
-            focus:outline-none
-          "
-          placeholder="Email address*"
-        />
-        <div class="mt-8 text-center mx-auto w-full flex justify-center">
-          <button @click="submit" class="cta">GET THE COURSE</button>
-        </div>
-        <p class="italic text-center text-sm">
-          *A mail will be sent for you to confirm your subscription before you
-          can be sent the ebook.
-        </p>
-      </form>
+      
     </div>
     <Footer />
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="dm">
-    <Nav />
+    <DeadNav />
     <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-green relative">
       <div
         class="text-blue flex flex-col lg:flex-row text-center justify-between"

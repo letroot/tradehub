@@ -80,26 +80,32 @@
             But these are all symptoms. Not the real sickness.
             <br />
 
-They are fruits. Not the root.
-
-Unless you solve your trading woes from the root, you keep failing.
-<br />
+            They are fruits. Not the root. Unless you solve your trading woes
+            from the root, you keep failing.
             <br />
-This book takes you out of this mess, and gets you in the direction of consistent and maximum profit in Trading.
+            <br />
+            This book takes you out of this mess, and gets you in the direction
+            of consistent and maximum profit in Trading.
           </h2>
         </div>
       </div>
     </div>
 
+    <!-- @submit.prevent -->
     <div class="xl:mt-20 mx-auto mt-2 sm:w-10/12 lg:w-9/12 xl:w-8/12">
       <form
-        @submit.prevent
+        action="https://app.birdsend.co/subscribe"
+        method="post"
+        bs-form
         class="mt-6 flex flex-col items-center space-y-6 avenir-regular px-5"
       >
+        <input type="hidden" name="meta_id" value="10495" />
+      <input type="hidden" name="meta_user_id" value="2341" />
         <input
-          required
           type="email"
           v-model="email"
+          name="email"
+          required
           class="
             border-2 border-gray-300
             rounded-xl
@@ -116,8 +122,17 @@ This book takes you out of this mess, and gets you in the direction of consisten
           placeholder="Email address*"
         />
         <div class="mt-8 text-center mx-auto w-full flex justify-center">
-          <button @click="submit" class="cta">GET THE FREE BOOK NOW</button>
+          <!-- <button @click="submit" class="cta">GET THE FREE BOOK NOW</button> -->
+          <button type="submit" class="cta">GET THE FREE BOOK NOW</button>
         </div>
+      <div class="">
+        <a
+          href="https://birdsend.co/?utm_source=form&amp;utm_medium="
+          class="bs-branding-url"
+          target="_blank"
+        ></a>
+      </div>
+      <div id="bs-message"></div>
         <p class="italic text-center text-sm">
           *A mail will be sent for you to confirm your subscription before you
           can be sent the ebook.
@@ -125,38 +140,12 @@ This book takes you out of this mess, and gets you in the direction of consisten
       </form>
     </div>
 
-    <!-- <div
-      class="
-        text-center
-        py-14
-        px-16
-        bg-orange
-        sm:w-9/12
-        mx-auto
-        sm:rounded-2xl
-        sm:shadow-about
-      "
-    >
-      <p class="smalltitle">GET STARTED</p>
-      <h1 class="mt-4 text-blue text-lg sm:text-xl xl:text-2xl font-bold space">
-        Trials can be done to confirm Joe's competency before proceeding to live
-        trading. You can also conduct remote/live interview with Joe, to
-        ascertain identity and confirm credibility.
-      </h1>
-    </div> -->
-
-    <!-- <TradingTestimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213842/tradehub/charts/testimonial16_drured.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/charts/testimonial12_nib2l4.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213858/tradehub/charts/testimonial11_c2b2g7.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280152/tradehub/charts/new/image_9_cnk5yx.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280151/tradehub/charts/new/image_8_pmzwt0.png"
-    /> -->
-    <!-- <div class="py-8 w-full flex justify-center">
-      <a href="mailto:dejoea7@gmail.com"
-        ><button class="cta">hire joe</button></a
-      >
-    </div> -->
+    <!-- BirdSend Form Starts -->
+    <!-- <form action="https://app.birdsend.co/subscribe" method="post" bs-form>
+      <input type="email" name="email" placeholder="Email Address" required />
+      <button type="submit">Get Instant Access</button>
+    </form> -->
+    <!-- BirdSend Form Ends -->
 
     <Footer />
   </div>
@@ -170,10 +159,23 @@ export default {
       email: '',
     }
   },
+  mounted() {
+    ;(function (w, d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0]
+      if (d.getElementById(id)) {
+        return
+      }
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://cdn.birdsend.co/assets/static/js/form.js'
+      fjs.parentNode.insertBefore(js, fjs)
+    })(window, document, 'script', 'birdsend-form-js')
+  },
   methods: {
     submit() {
       axios
-        .post('https://helpmate-be.kerokuapp.com/jet-lead', {
+        .post('https://www.google.com/', {
           email: this.email,
         })
         .then(() => {

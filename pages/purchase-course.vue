@@ -42,52 +42,57 @@
             I want to reveal to you the SINGLE SECRET to Maximum Profit in
             Trading.
           </h2>
-
         </div>
       </div>
     </div>
 
     <div class="xl:mt-20 mx-auto mt-2 sm:w-10/12 lg:w-9/12 xl:w-8/12">
-    <h2
-            class="
-              text-center
-              mx-auto
-              mt-6
-              font-medium
-              text-base
-              sm:text-xl
-              lg:text-xl
-              xl:text-2xl
-              w-11/12
-              sm:w-8/12
-              lg:w-7/12
-              text-dark
-            "
-          >
-            The course costs $20.
-          </h2>
-          <h2
-            class="
-              text-center
-              mx-auto
-              mt-6
-              font-medium
-              text-base
-              sm:text-xl
-              lg:text-xl
-              xl:text-2xl
-              w-11/12
-              sm:w-8/12
-              lg:w-7/12
-              text-dark
-            "
-          >
-            I want to reveal to you the SINGLE SECRET to Maximum Profit in
-            Trading.
-          </h2>
+      <h2
+        class="
+          text-center
+          mx-auto
+          mt-6
+          font-medium
+          text-base
+          sm:text-xl
+          lg:text-xl
+          xl:text-2xl
+          w-11/12
+          sm:w-8/12
+          lg:w-7/12
+          text-dark
+        "
+      >
+        The course costs $20. Transfer the equivalent Bitcoin to the address below and send proof of payment <a class="underline text-blue4" target="_blank" href="mailto:joe@joe-elite.trade">here</a>
+      </h2>
+      <h2
+        id="btc-address"
+        class="
+          text-center
+          font-mono
+          mx-auto
+          mt-6
+          font-medium
+          text-base
+          sm:text-xl
+          lg:text-xl
+          xl:text-2xl
+          w-11/12
+          sm:w-8/12
+          lg:w-7/12
+          text-blue4
+        "
+      >
+        15JqQ3jSXXTjBDbaKQNE6wyrxVPrYSAJ1K
+      </h2>
+      <div class="mt-8 text-center mx-auto w-full flex justify-center">
+        <button @click="copy('btc-address'), changetext" id="copy" class="cta">
+          COPY BTC WALLET ADDRESS
+        </button>
+      </div>
       <form
         @submit.prevent
-        class="mt-6 flex flex-col items-center space-y-6 avenir-regular px-5"
+        class="mt-14 flex flex-col items-center space-y-6 avenir-regular px-5"
       >
         <input
           required
@@ -150,21 +155,21 @@ export default {
           console.log('error: ', error)
         })
     },
-  },
-  copy(id) {
-    var text = document.getElementById(id).innerText
-    var elem = document.createElement('textarea')
-    document.body.appendChild(elem)
-    elem.value = text
-    elem.select()
-    document.execCommand('copy')
-    document.body.removeChild(elem)
-  },
+    copy(id) {
+      var text = document.getElementById(id).innerText
+      var elem = document.createElement('textarea')
+      document.body.appendChild(elem)
+      elem.value = text
+      elem.select()
+      document.execCommand('copy')
+      document.body.removeChild(elem)
+    },
 
-  changetext() {
-    setTimeout(function () {
-      document.getElementById('copy').innerText = 'Copied'
-    }, 3000)
+    changetext() {
+      setTimeout(function () {
+        document.getElementById('copy').innerText = 'Copied'
+      }, 3000)
+    },
   },
   head() {
     return {

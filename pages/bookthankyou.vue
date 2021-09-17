@@ -21,7 +21,8 @@
               tracking-tight
             "
           >
-            Thank you for choosing to get this ebook.
+            Your download should start now...Thank you for choosing to get this
+            ebook.
             <br />
             <br />
             Time for Consistent and Maximum Profit in Trading.
@@ -44,8 +45,8 @@
               text-dark
             "
           >
-            This gift is only going to be available for 1 week and for just
-            100 people.
+            This gift is only going to be available for 1 week and for just 100
+            people.
             <br />
             <br />
 
@@ -57,26 +58,19 @@
             <br />
             <br />
           </h2>
-
         </div>
       </div>
     </div>
+    <iframe id="download_iframe" style="display:none;"></iframe>
     <Footer />
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+import axios from 'axios'
 export default {
   mounted() {
-    axios
-        .get('https://drive.google.com/uc?export=download&id=11GY2kJPY_ZqTcbTxemkVdVC3S-tSkXwC')
-        .then(() => {
-          console.log('Downloading book');
-        })
-        .catch((error) => {
-          console.log('error: ', error)
-        })
+    document.getElementById('download_iframe').src = "https://drive.google.com/uc?export=download&id=11GY2kJPY_ZqTcbTxemkVdVC3S-tSkXwC";
   },
 }
 </script>

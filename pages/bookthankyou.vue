@@ -44,23 +44,20 @@
               text-dark
             "
           >
-            This course is only going to be available for 1 week and for just
-            100 people. That’s as many people as I’m willing to take.
+            This gift is only going to be available for 1 week and for just
+            100 people.
             <br />
             <br />
-            See you
-            within the Elite TradeHub Community.
+
+            Ensure to check it out.
             <br />
             <br />
+
             Cheers to Profitable Trading.
             <br />
             <br />
           </h2>
-          <div class="mt-12 text-center mx-auto w-full flex justify-center">
-            <a href="https://joe-elite.trade"
-              ><button class="cta">RETURN HOME</button></a
-            >
-          </div>
+
         </div>
       </div>
     </div>
@@ -69,7 +66,19 @@
 </template>
 
 <script>
-export default {}
+import axios from 'axios';
+export default {
+  mounted() {
+    axios
+        .get('https://drive.google.com/uc?export=download&id=11GY2kJPY_ZqTcbTxemkVdVC3S-tSkXwC')
+        .then(() => {
+          console.log('Downloading book');
+        })
+        .catch((error) => {
+          console.log('error: ', error)
+        })
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

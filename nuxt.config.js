@@ -48,8 +48,8 @@ export default {
       {
         autoPageView: true,
         disabled: false,
-        pixelId: '984424319024714',
-        routes: ['/freebook'],
+        pixelId: '606022610772008',
+        routes: ['/freebook', 'bookthankyou'],
       },
     ],
   },

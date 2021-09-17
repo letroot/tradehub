@@ -1,7 +1,7 @@
 <template>
   <div class="dm">
     <Nav />
-    <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-green relative">
+        <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-green relative">
       <div
         class="text-blue flex flex-col lg:flex-row text-center justify-between"
       >
@@ -124,45 +124,12 @@ This book takes you out of this mess, and gets you in the direction of consisten
         </p>
       </form>
     </div>
-
-    <!-- <div
-      class="
-        text-center
-        py-14
-        px-16
-        bg-orange
-        sm:w-9/12
-        mx-auto
-        sm:rounded-2xl
-        sm:shadow-about
-      "
-    >
-      <p class="smalltitle">GET STARTED</p>
-      <h1 class="mt-4 text-blue text-lg sm:text-xl xl:text-2xl font-bold space">
-        Trials can be done to confirm Joe's competency before proceeding to live
-        trading. You can also conduct remote/live interview with Joe, to
-        ascertain identity and confirm credibility.
-      </h1>
-    </div> -->
-
-    <!-- <TradingTestimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213842/tradehub/charts/testimonial16_drured.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213850/tradehub/charts/testimonial12_nib2l4.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213858/tradehub/charts/testimonial11_c2b2g7.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280152/tradehub/charts/new/image_9_cnk5yx.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629280151/tradehub/charts/new/image_8_pmzwt0.png"
-    /> -->
-    <!-- <div class="py-8 w-full flex justify-center">
-      <a href="mailto:dejoea7@gmail.com"
-        ><button class="cta">hire joe</button></a
-      >
-    </div> -->
-
     <Footer />
   </div>
 </template>
 
 <script>
+
 import axios from 'axios'
 export default {
   data: () => {
@@ -192,6 +159,21 @@ export default {
         })
     },
   },
+  copy(id) {
+    var text = document.getElementById(id).innerText
+    var elem = document.createElement('textarea')
+    document.body.appendChild(elem)
+    elem.value = text
+    elem.select()
+    document.execCommand('copy')
+    document.body.removeChild(elem)
+  },
+
+  changetext() {
+    setTimeout(function () {
+      document.getElementById('copy').innerText = 'Copied'
+    }, 3000)
+  },
   head() {
     return {
       title:
@@ -199,6 +181,7 @@ export default {
     }
   },
 }
+
 </script>
 
 <style lang="scss" scoped></style>

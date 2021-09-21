@@ -22,6 +22,11 @@ module.exports = {
         about: '0px 4px 36px #E5E9FF',
         btn: '0 3px 20px 0 rgb(2 43 105 / 28%)',
       },
+      spacing: {
+        200: "45rem",
+        180: "35rem",
+        220: "60rem",
+      },
     },
   },
   variants: {

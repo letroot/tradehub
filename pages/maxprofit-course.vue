@@ -25,7 +25,7 @@
               xl:text-6xl
               font-bold
               sm:w-8/12
-              lg:w-11/12
+              lg:w-10/12
               space
               tracking-tight
             "
@@ -41,15 +41,15 @@
               xl:text-2xl
               w-11/12
               sm:w-8/12
-              lg:w-11/12
-              text-dark
+              lg:w-9/12
+              text-blue
             "
           >
-            I want to show you precisely how to move away from the losing pack
-            and how to make money off the market.
+            Structured Trading is the one thing it takes to move away from the losing pack to consistently making money off the market.
+
           </h2>
           <a href="#info"
-            ><button class="cta text-white mt-6">LEARN MORE</button></a
+            ><button class="cta text-white mt-6 l:mt-8">get the course for $20</button></a
           >
         </div>
         <div class="mt-6 lg:mt-0 mx-auto w-full lg:w-5/12">
@@ -60,6 +60,38 @@
         </div>
       </div>
     </div>
+
+    <h1
+        class="
+
+          xl:mt-10
+          text-xl
+          sm:text-2xl
+          xl:text-3xl
+          font-bold
+          sm:w-8/12
+          lg:w-10/12
+          space
+          tracking-tight
+          mx-auto
+          text-center
+          text-blue
+        "
+      >
+        Watch a Sneak Peek of the Course Below
+      </h1>
+
+    <div class="relative xl:h-220 sm:h-180 mb-12 xl:px-44 lg:px-28 sm:px-12 px-8 xl:py-28 sm:py-20 py-12">
+      <iframe src="https://player.vimeo.com/video/605530687?h=4ea6691bd1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+      class=" absolute sm:h-full xl:h-200 mx-auto w-9/12 right-0 left-0"
+            title="A Sneak Peek: How to Make Consistent &amp;amp; Maximum Trading Profits">
+      </iframe>
+    </div>
+      <script src="https://player.vimeo.com/api/player.js">
+      </script>
+
 
     <div id="info" class="py-20 px-8 sm:px-14 bg-blue3">
       <h1 class="title text-center">

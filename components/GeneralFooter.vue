@@ -18,7 +18,7 @@
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629109216/tradehub/logo_bzzn1g.svg"
         alt="logo"
-        class="h-12 lg:h-auto"
+        class="h-12 lg:h-auto mx-auto "
       />
     </a>
     <p class="mt-4 text-dark">Joe Elite TradeHub © 2021</p>

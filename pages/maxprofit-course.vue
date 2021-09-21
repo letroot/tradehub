@@ -1,6 +1,6 @@
 <template>
   <div class="dm">
-    <Nav />
+    <DeadNav />
     <div
       class="
         xl:px-44
@@ -48,7 +48,7 @@
             Structured Trading is the one thing it takes to move away from the losing pack to consistently making money off the market.
 
           </h2>
-          <a href="#info"
+          <a href="/purchase-course"
             ><button class="cta text-white mt-6 l:mt-8">get the course for $20</button></a
           >
         </div>
@@ -61,10 +61,11 @@
       </div>
     </div>
 
-    <h1
-        class="
 
-          xl:mt-10
+
+    <div class="relative xl:h-220 sm:h-180 mb-16 xl:px-44 lg:px-28 sm:px-12 px-8 xl:py-28 sm:py-20 ">
+      <h1
+        class="
           text-xl
           sm:text-2xl
           xl:text-3xl
@@ -80,8 +81,6 @@
       >
         Watch a Sneak Peek of the Course Below
       </h1>
-
-    <div class="relative xl:h-220 sm:h-180 mb-12 xl:px-44 lg:px-28 sm:px-12 px-8 xl:py-28 sm:py-20 py-12">
       <iframe src="https://player.vimeo.com/video/605530687?h=4ea6691bd1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
       allowfullscreen
@@ -126,7 +125,7 @@
             the market. The statistic speaks for itself. 70-80% lose money and
             get eaten up by the market. Some say as high as 90%.
           </p>
-          <a href="#card2">
+          <a href="/purchase-course">
             <button
               class="
                 mt-8
@@ -140,7 +139,7 @@
                 group
               "
             >
-              LEARN MORE
+              GET THE COURSE for $20
               <span
                 class="
                   ml-1
@@ -187,7 +186,7 @@
             objects and wasting both time and money while your peers are
             winning.
           </p>
-          <a href="/freebook">
+          <a href="/purchase-course">
             <button
               class="
                 mt-8
@@ -201,7 +200,7 @@
                 group
               "
             >
-              get ebook
+              get the course for $20
               <span
                 class="
                   ml-1
@@ -218,7 +217,7 @@
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629114938/tradehub/motif-2_dydlu7.svg"
             alt="motif-3"
-            class="absolute right-0 bottom-0"
+            class="absolute right-0 bottom-0 z-10"
           />
         </div>
       </div>
@@ -248,7 +247,7 @@
     >
       <div class="lg:w-6/12 sm:w-6/12 mx-auto">
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1632207404/tradehub/book-pg3-ipad-mockup_f64ogq.png"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1632225062/tradehub/book-pg3-ipad-mockup_defany.png"
           alt="mentorship"
         />
       </div>
@@ -258,7 +257,7 @@
           A Single Pill that Cures all the Ailments that Traders Face
         </h1>
         <p class="mt-8 content">
-          With this one pill, you start to have a definite direction towards
+          With this one course, you start to have a definite direction towards
           successful trades.
         </p>
         <div class="mt-6">
@@ -324,7 +323,7 @@
           </div>
         </div>
 
-        <a href="/freebook"><button class="mt-12 cta">get ebook</button> </a>
+        <a href="/purchase-course"><button class="mt-12 cta">get the course for $20 now</button> </a>
       </div>
     </div>
 <div
@@ -410,7 +409,7 @@
           </div>
         </div>
 
-        <a href="/feebook"><button class="mt-12 cta">get ebook</button> </a>
+        <a href="/purchase-course"><button class="mt-12 cta">get the course for $20 now</button> </a>
       </div>
     </div>
     <AboutMe />
@@ -423,7 +422,7 @@
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
     />
 
-    <GeneralFooter />
+    <Footer />
   </div>
 </template>
 

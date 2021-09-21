@@ -51,6 +51,12 @@ export default {
         pixelId: '606022610772008',
         routes: ['/freebook', 'bookthankyou'],
       },
+      {
+        autoPageView: true,
+        disabled: false,
+        pixelId: '596402361537328',
+        routes: ['/maxprofit-course'],
+      },
     ],
   },
 

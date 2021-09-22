@@ -63,7 +63,7 @@
 
 
 
-    <div class="relative xl:h-220 sm:h-180 mb-16 xl:px-44 lg:px-28 sm:px-12 px-8 xl:py-28 sm:py-20 ">
+    <div class="relative xl:h-220 sm:h-180 mb-52 sm:mb-0 lg:mb-12 xl:mb-0 xl:px-44 lg:px-28 sm:px-12 px-8 xl:py-28 sm:py-20 ">
       <h1
         class="
           text-xl
@@ -84,8 +84,8 @@
       <iframe src="https://player.vimeo.com/video/605530687?h=4ea6691bd1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
       allowfullscreen
-      class=" absolute sm:h-full xl:h-200 mx-auto w-9/12 right-0 left-0"
-            title="A Sneak Peek: How to Make Consistent &amp;amp; Maximum Trading Profits">
+      class="absolute sm:h-5/6 xl:h-200 mx-auto w-9/12 right-0 left-0"
+      title="A Sneak Peek: How to Make Consistent &amp;amp; Maximum Trading Profits">
       </iframe>
     </div>
       <script src="https://player.vimeo.com/api/player.js">

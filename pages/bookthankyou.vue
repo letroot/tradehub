@@ -70,7 +70,7 @@
 import axios from 'axios'
 export default {
   mounted() {
-    document.getElementById('download_iframe').src = "https://drive.google.com/uc?export=download&id=11GY2kJPY_ZqTcbTxemkVdVC3S-tSkXwC";
+    document.getElementById('download_iframe').src = "https://drive.google.com/uc?export=download&id=1O7CHQ6TpE583yumriOwWpSOEBGGPpa5L";
   },
 }
 </script>

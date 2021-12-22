@@ -231,8 +231,6 @@
       img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215926/tradehub/testimonial21_gqx8jn.png"
     />
 
-
-
     <div
       class="
         flex flex-col

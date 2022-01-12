@@ -17,7 +17,7 @@
               space
             "
           >
-            Join the Fastest Growing Financialf Trading Online Community
+            Join the Fastest Growing Financial Trading Online Community
           </h1>
           <h2
             class="

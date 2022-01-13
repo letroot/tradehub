@@ -1,6 +1,6 @@
 <template>
   <div class="dm">
-    <DeadNav />
+    <Nav />
     <div class="tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <h2
         class="

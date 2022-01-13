@@ -460,19 +460,20 @@
     </div>
 
     <div class="mt-5 text-gray-800 px-4">
-      <p class="leading-tight">
+      <div class="leading-tight">
         <span class="mt-3 block"></span>
-        In Trading,<br><br>
-You have to take responsibility for your own decisions,<br><br>
-You have to learn to follow the process,<br><br>
-I have an unbelievable, Full stack library of resources for serious traders,<br><br>
-It’s only for those who are willing to learn Forex the right way,<br><br>
-I love this craft this much.<br><br>
-I’ll show you,<br><br>
-I’ll be expecting you,<br><br>
-You can meet me on my FREE channel,<br><br>
-Click the button below, click on "JOIN" to enter,<br><br>
-<div class="mt-2 px-3 mb-3 w-full text-center">
+        In Trading,<br /><br />
+        You have to take responsibility for your own decisions,<br /><br />
+        You have to learn to follow the process,<br /><br />
+        I have an unbelievable, Full stack library of resources for serious
+        traders,<br /><br />
+        It’s only for those who are willing to learn Forex the right way,<br /><br />
+        I love this craft this much.<br /><br />
+        I’ll show you,<br /><br />
+        I’ll be expecting you,<br /><br />
+        You can meet me on my FREE channel,<br /><br />
+        Click the button below, click on "JOIN" to enter,<br /><br />
+        <div class="mt-2 px-3 mb-3 w-full text-center">
           <a href="https://t.me/JoeEliteTradeHub">
             <button
               class="
@@ -496,12 +497,12 @@ Click the button below, click on "JOIN" to enter,<br><br>
           </a>
         </div>
 
-I officially welcome to a community of New Consistent and Profitable Traders.<br><br>
-It's a new dawn.<br><br>
-All the best.<br><br>
-Joe.
-
-      </p>
+        I officially welcome to a community of New Consistent and Profitable
+        Traders.<br /><br />
+        It's a new dawn.<br /><br />
+        All the best.<br /><br />
+        Joe.
+      </div>
     </div>
 
     <Footer />

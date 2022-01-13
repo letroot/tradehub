@@ -43,9 +43,8 @@
           alt="hero"
         />
       </div>
-    </div>
 
-    <div class="-mt-12 px-3 mb-3 w-full text-center">
+          <div class=" px-3 mb-3 sm:w-4/5 mx-auto text-center">
       <a href="#payment">
         <button
           class="
@@ -68,6 +67,9 @@
         </button>
       </a>
     </div>
+    </div>
+
+
 
     <p class="text-gray-800 px-4">
       It is NOT true that you are a pro at technical analysis and a master of

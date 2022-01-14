@@ -1,5 +1,5 @@
 <template>
-  <div class="dm">
+  <div class="">
     <Nav />
     <div class="tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <h2
@@ -14,7 +14,7 @@
       >
         At last, Someone bold enough to tell the world the truth…
       </h2>
-      <h2 class="px-4 mt-3 font-semibold text-3xl text-center text-blue space">
+      <h2 class="px-4 mt-3 font-semibold text-3xl text-center text-blue georgia">
         The only single Truth about Forex Trading on the entire Internet
       </h2>
       <h2 class="px-4 font-semibold text-lg text-center text-blue">
@@ -114,7 +114,7 @@
 
       <div class="mt-4 text-gray-800 px-4">
         <p class="leading-tight">
-          <span class="font-semibold text-3xl space text-blue"
+          <span class="font-semibold text-3xl georgia text-blue"
             >I almost took my own life…</span
           >
           <span class="mt-3 block"></span>
@@ -146,7 +146,7 @@
 
       <div class="mt-4 text-gray-800 px-4">
         <p class="leading-tight">
-          <span class="font-semibold text-3xl space text-blue"
+          <span class="font-semibold text-3xl georgia text-blue"
             >My Journey to Freedom…</span
           >
           <span class="mt-3 block"></span>
@@ -167,7 +167,7 @@
             <button
               class="
                 shadow-lg
-                rounded-md
+                rounded-3xl
                 w-full
                 border-darkgreen border-2
                 px-4
@@ -181,7 +181,7 @@
                 tracking-wide
               "
             >
-              join the telegram channel<br />
+              join now<br />
             </button>
           </a>
         </div>
@@ -202,9 +202,9 @@
       </div>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4">
+    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <p class="leading-tight">
-        <span class="font-semibold text-3xl space text-blue"
+        <span class="font-semibold text-3xl georgia text-blue"
           >Forex Trading changed His life, Mine too…</span
         >
         <span class="mt-3 block"></span>
@@ -234,9 +234,9 @@
       </p>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4">
+    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <p class="leading-tight">
-        <span class="font-semibold text-3xl space text-blue"
+        <span class="font-semibold text-3xl georgia text-blue"
           >A Forex Prophet…
         </span>
         <span class="mt-3 block"></span>
@@ -254,10 +254,10 @@
       </p>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4">
+    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <div class="leading-tight">
         Let’s examine USD/CAD
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642068413/tradehub/charts/new/image_18_tanhzk.png"
             alt="joe elite dark"
@@ -265,7 +265,7 @@
           USDCAD. 1D. WDYS?
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642068413/tradehub/charts/new/image_19_l56if4.png"
             alt="joe elite dark"
@@ -274,7 +274,7 @@
           There's an obvious draw on liquidity at the SIBI.
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_11_xc6091.png"
             alt="joe elite dark"
@@ -282,7 +282,7 @@
           USDCAD. 4h.
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_12_hibstf.png"
             alt="joe elite dark"
@@ -291,7 +291,7 @@
           (PS - not a Signal).
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_12_hibstf.png"
             alt="joe elite dark"
@@ -309,7 +309,7 @@
             text-center
             mx-auto
             sm:w-full
-            lg:w-5/12
+
             leading-tight
           "
         >
@@ -331,7 +331,7 @@
             text-center
             mx-auto
             sm:w-full
-            lg:w-5/12
+
             leading-tight
           "
         >
@@ -357,9 +357,9 @@
       </div>
     </div>
 
-    <div class="mt-4 text-gray-800 px-4">
+    <div class="mt-4 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <p class="leading-tight">
-        <span class="font-semibold text-3xl space text-blue leading-tight"
+        <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Your Anxiety as a Trader is about to drop to your all time low…
         </span>
         <span class="mt-3 block"></span>
@@ -384,9 +384,9 @@
       img11="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071624/tradehub/image_25_fjk46z.png"
     />
 
-    <div class="mt-4 text-gray-800 px-4">
+    <div class="mt-4 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <p class="leading-tight">
-        <span class="font-semibold text-3xl space text-blue leading-tight"
+        <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Forex Trading is 80% Psychology…
         </span>
         <span class="mt-3 block"></span>
@@ -419,9 +419,9 @@
       img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072465/tradehub/image_31_qfcako.png"
     />
 
-    <div class="mt-5 text-gray-800 px-4">
+    <div class="mt-5 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <p class="leading-tight">
-        <span class="font-semibold text-3xl space text-blue leading-tight"
+        <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Sudden Risk management get out of control…
         </span>
         <span class="mt-3 block"></span>
@@ -445,7 +445,7 @@
       </p>
     </div>
 
-    <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
+    <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full  ">
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072679/tradehub/image_30_xx8lkv.png"
         alt="joe elite dark"
@@ -459,7 +459,7 @@
       />
     </div>
 
-    <div class="mt-5 text-gray-800 px-4">
+    <div class="mt-5 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <div class="leading-tight">
         <span class="mt-3 block"></span>
         In Trading,<br /><br />
@@ -478,7 +478,7 @@
             <button
               class="
                 shadow-lg
-                rounded-md
+                rounded-3xl
                 w-full
                 border-darkgreen border-2
                 px-4
@@ -492,7 +492,7 @@
                 tracking-wide
               "
             >
-              join the telegram channel now<br />
+              join now<br />
             </button>
           </a>
         </div>

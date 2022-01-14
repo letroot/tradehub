@@ -18,6 +18,7 @@ module.exports = {
         blue5: '#273B98',
         dark: '#2A3144',
       },
+      
       boxShadow: {
         card: '0px 4px 76px rgba(0, 0, 0, 0.25);',
         about: '0px 4px 36px #E5E9FF',

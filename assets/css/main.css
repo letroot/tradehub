@@ -9,6 +9,10 @@
   font-family: 'DM Sans', sans-serif;
 }
 
+.georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .cta {
   @apply space text-white bg-blue2 rounded-md px-12 py-2 font-medium uppercase text-sm lg:text-xl hover:shadow-btn transition duration-300;
 }

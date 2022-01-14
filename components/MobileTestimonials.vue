@@ -1,7 +1,5 @@
 <template>
   <div class="mt-4">
-    <p class="smalltitle text-center">MY CHARTS</p>
-    <h1 class=" title text-center leading-snug">Testimonials from J.E.T. Members</h1>
     <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x-auto">
       <div class="pl-14 lg:pl-32"></div>
       <img

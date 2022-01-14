@@ -1,7 +1,6 @@
 <template>
   <div class="mt-4">
-    <h1 class="px-3  title text-center leading-snug">Psychology Testimonials from J.E.T. Members</h1>
-    <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x-auto">
+        <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x">
       <div class="pl-14 lg:pl-32"></div>
       <img
         :src="img1"

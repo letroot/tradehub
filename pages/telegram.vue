@@ -21,7 +21,7 @@
         What no one will ever tell you...
       </h2>
 
-      <div class="mt-3 lg:mt-0 text-center mx-auto w-full lg:w-5/12">
+      <div class="mt-3 lg:mt-0 text-center mx-auto w-full ">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642024496/tradehub/assets/95-percent-lose-money_btourj.png"
           alt="what know one would ever tell you"

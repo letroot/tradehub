@@ -15,7 +15,7 @@
       >
         At last, Someone bold enough to tell the world the truth…
       </h2>
-      <h2 class="px-4 mt-3 font-semibold text-3xl text-center text-blue georgia">
+      <h2 class="px-4 mt-3 font-semibold text-3xl text-center text-blue georgia italic">
         The only single Truth about Forex Trading on the entire Internet
       </h2>
       <h2 class="px-4 font-semibold text-lg text-center text-blue">

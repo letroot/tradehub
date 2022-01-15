@@ -110,7 +110,7 @@
           class="text-blue4 underline font-medium"
           >https://t.me/JoeEliteTradeHub</a
         ><br /><br />
-        
+
       </p>
 
       <div class="mt-4 text-gray-800 px-4">
@@ -259,7 +259,7 @@
         Let’s examine USD/CAD
         <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642068413/tradehub/charts/new/image_18_tanhzk.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/1_s9o2tj.jpg"
             alt="joe elite dark"
           />
           USDCAD. 1D. WDYS?
@@ -267,7 +267,7 @@
 
         <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642068413/tradehub/charts/new/image_19_l56if4.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/2_eucwaw.jpg"
             alt="joe elite dark"
           />
           USDCAD. 1D. <br />
@@ -276,7 +276,7 @@
 
         <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_11_xc6091.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/3_z3iywm.jpg"
             alt="joe elite dark"
           />
           USDCAD. 4h.
@@ -284,7 +284,7 @@
 
         <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_12_hibstf.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/4_c8bjfh.jpg"
             alt="joe elite dark"
           />
           UC. 2h. Study.. <br />
@@ -293,7 +293,7 @@
 
         <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_12_hibstf.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279530/tradehub/new-charts/5_jhcwvd.jpg"
             alt="joe elite dark"
           />
           USDCAD. 1D.<br />
@@ -314,7 +314,7 @@
           "
         >
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067473/tradehub/charts/new/image_16_mbivuc.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/6_jnehbn.jpg"
             alt="joe elite dark"
           />
           UsdCad. 15m.<br /><br />
@@ -337,7 +337,7 @@
         >
           <span class="font-semibold text-2xl text-left">Time, and Price.</span>
           <img
-            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642067474/tradehub/charts/new/image_17_ru53go.png"
+            src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/7_gc2d1n.jpg"
             alt="joe elite dark"
           />
           UsdCad. 1h<br />

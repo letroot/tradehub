@@ -110,7 +110,7 @@
           class="text-blue4 underline font-medium"
           >https://t.me/JoeEliteTradeHub</a
         ><br /><br />
-        (Tab to click should be evident)<br /><br />
+        
       </p>
 
       <div class="mt-4 text-gray-800 px-4">

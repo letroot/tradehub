@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="georgia">
     <Nav />
     <div class="tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
       <h2
@@ -10,6 +10,7 @@
           text-lg text-center
           leading-tight
           text-gray-800
+
         "
       >
         At last, Someone bold enough to tell the world the truth…
@@ -168,8 +169,7 @@
               class="
                 shadow-lg
                 rounded-3xl
-                w-full
-                border-darkgreen border-2
+                w-1/2
                 px-4
                 bg-blue
                 py-5
@@ -479,8 +479,7 @@
               class="
                 shadow-lg
                 rounded-3xl
-                w-full
-                border-darkgreen border-2
+                w-1/2
                 px-4
                 bg-blue
                 py-5

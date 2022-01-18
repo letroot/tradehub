@@ -10,19 +10,27 @@
           text-lg text-center
           leading-tight
           text-gray-800
-
         "
       >
         At last, Someone bold enough to tell the world the truth…
       </h2>
-      <h2 class="px-4 mt-3 font-semibold text-3xl text-center text-blue georgia italic">
+      <h2
+        class="
+          px-4
+          mt-3
+          font-semibold
+          text-3xl text-center text-blue
+          georgia
+          italic
+        "
+      >
         The only single Truth about Forex Trading on the entire Internet
       </h2>
       <h2 class="px-4 font-semibold text-lg text-center text-blue">
         What no one will ever tell you...
       </h2>
 
-      <div class="mt-3 lg:mt-0 text-center mx-auto w-full ">
+      <div class="mt-3 lg:mt-0 text-center mx-auto w-full">
         <img
           src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642024496/tradehub/assets/95-percent-lose-money_btourj.png"
           alt="what know one would ever tell you"
@@ -60,14 +68,60 @@
         </p>
       </div>
 
-      <MobileTestimonials
-        img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037482/tradehub/assets/testimonials-1/image_5_adsyic.png"
-        img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037486/tradehub/assets/testimonials-1/image_8_xtbwnp.png"
-        img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037485/tradehub/assets/testimonials-1/image_7_l1tka7.png"
-        img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037484/tradehub/assets/testimonials-1/image_6_qrpp2z.png"
-        img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037480/tradehub/assets/testimonials-1/image_9_fvxtq8.png"
-        img6="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037482/tradehub/assets/testimonials-1/image_10_raewa3.png"
-      />
+      <div class="mt-2"><br /></div>
+
+      <client-only placeholder="Loading...">
+        <agile class="bg-purple">
+          <div class=" mt-2 flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037482/tradehub/assets/testimonials-1/image_5_adsyic.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+
+          <div class=" flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037486/tradehub/assets/testimonials-1/image_8_xtbwnp.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+
+          <div class=" flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037485/tradehub/assets/testimonials-1/image_7_l1tka7.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+
+          <div class=" flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037484/tradehub/assets/testimonials-1/image_6_qrpp2z.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+          <div class=" flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037480/tradehub/assets/testimonials-1/image_9_fvxtq8.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+          <div class=" flex ">
+            <img
+              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037482/tradehub/assets/testimonials-1/image_10_raewa3.png"
+              alt="testimonial1"
+              class="w-full sm:w-6/12 object-contain"
+            />
+          </div>
+
+          <template slot="prevButton">prev</template>
+    <template slot="nextButton">next</template>
+        </agile>
+      </client-only>
 
       <div class="mt-4 text-gray-800 px-4">
         <p class="leading-tight">
@@ -110,7 +164,6 @@
           class="text-blue4 underline font-medium"
           >https://t.me/JoeEliteTradeHub</a
         ><br /><br />
-
       </p>
 
       <div class="mt-4 text-gray-800 px-4">
@@ -202,7 +255,18 @@
       </div>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-2
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <p class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue"
           >Forex Trading changed His life, Mine too…</span
@@ -234,7 +298,18 @@
       </p>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-2
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <p class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue"
           >A Forex Prophet…
@@ -254,10 +329,21 @@
       </p>
     </div>
 
-    <div class="mt-2 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-2
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <div class="leading-tight">
         Let’s examine USD/CAD
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/1_s9o2tj.jpg"
             alt="joe elite dark"
@@ -265,7 +351,7 @@
           USDCAD. 1D. WDYS?
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/2_eucwaw.jpg"
             alt="joe elite dark"
@@ -274,7 +360,7 @@
           There's an obvious draw on liquidity at the SIBI.
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/3_z3iywm.jpg"
             alt="joe elite dark"
@@ -282,7 +368,7 @@
           USDCAD. 4h.
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/4_c8bjfh.jpg"
             alt="joe elite dark"
@@ -291,7 +377,7 @@
           (PS - not a Signal).
         </div>
 
-        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full ">
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279530/tradehub/new-charts/5_jhcwvd.jpg"
             alt="joe elite dark"
@@ -302,17 +388,7 @@
           Internal Liquidity draw on price…<br />
         </div>
 
-        <div
-          class="
-            mt-3
-            lg:mt-0
-            text-center
-            mx-auto
-            sm:w-full
-
-            leading-tight
-          "
-        >
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full leading-tight">
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/6_jnehbn.jpg"
             alt="joe elite dark"
@@ -324,17 +400,7 @@
           market structure, and retracement to continue buys.
         </div>
 
-        <div
-          class="
-            mt-3
-            lg:mt-0
-            text-center
-            mx-auto
-            sm:w-full
-
-            leading-tight
-          "
-        >
+        <div class="mt-3 lg:mt-0 text-center mx-auto sm:w-full leading-tight">
           <span class="font-semibold text-2xl text-left">Time, and Price.</span>
           <img
             src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642279529/tradehub/new-charts/7_gc2d1n.jpg"
@@ -357,7 +423,18 @@
       </div>
     </div>
 
-    <div class="mt-4 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-4
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <p class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Your Anxiety as a Trader is about to drop to your all time low…
@@ -370,7 +447,7 @@
       </p>
     </div>
 
-    <MobileTestimonials
+    <!-- <MobileTestimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642070646/tradehub/image_20_vjvkgr.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
@@ -382,9 +459,20 @@
       img9="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071421/tradehub/image_23_sgjacr.png"
       img10="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071513/tradehub/image_24_l0ma30.png"
       img11="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071624/tradehub/image_25_fjk46z.png"
-    />
+    /> -->
 
-    <div class="mt-4 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-4
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <p class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Forex Trading is 80% Psychology…
@@ -412,14 +500,25 @@
       </p>
     </div>
 
-    <PsychologyTestimonials
+    <!-- <PsychologyTestimonials
       img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072192/tradehub/image_28_bhcaj7.png"
       img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_26_thg6g5.png"
       img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_27_ujcklm.png"
       img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072465/tradehub/image_31_qfcako.png"
-    />
+    /> -->
 
-    <div class="mt-5 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-5
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <p class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Sudden Risk management get out of control…
@@ -445,7 +544,7 @@
       </p>
     </div>
 
-    <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full  ">
+    <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full">
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072679/tradehub/image_30_xx8lkv.png"
         alt="joe elite dark"
@@ -459,7 +558,18 @@
       />
     </div>
 
-    <div class="mt-5 text-gray-800 px-4 georgia tracking-tight pt-3 pb-4 sm:max-w-screen-sm sm:mx-auto">
+    <div
+      class="
+        mt-5
+        text-gray-800
+        px-4
+        georgia
+        tracking-tight
+        pt-3
+        pb-4
+        sm:max-w-screen-sm sm:mx-auto
+      "
+    >
       <div class="leading-tight">
         <span class="mt-3 block"></span>
         In Trading,<br /><br />
@@ -509,7 +619,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 export default {
   data: () => {
     return {
@@ -529,20 +638,10 @@ export default {
       fjs.parentNode.insertBefore(js, fjs)
     })(window, document, 'script', 'birdsend-form-js')
   },
-  methods: {
-    submit() {
-      axios
-        .post('https://www.google.com/', {
-          email: this.email,
-        })
-        .then(() => {
-          console.log('Email submitted')
-          window.location.href = 'https://joe-elite.trade/thankyou'
-        })
-        .catch((error) => {
-          console.log('error: ', error)
-        })
-    },
+  methods: {},
+  components: {},
+  data() {
+
   },
   head() {
     return {

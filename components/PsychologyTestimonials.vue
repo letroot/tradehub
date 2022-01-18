@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-        <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x">
+        <div class="py-6 lg:py-10 bg-purple mt-6 flex overflow-x-auto">
       <div class="pl-14 lg:pl-32"></div>
       <img
         :src="img1"

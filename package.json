@@ -16,7 +16,8 @@
     "nuxt-facebook-pixel": "^1.0.2",
     "nuxt-facebook-pixel-module": "^1.5.0",
     "vue-agile": "^2.0.0",
-    "vue-easy-slider": "^5.3.4"
+    "vue-easy-slider": "^5.3.4",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",

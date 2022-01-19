@@ -70,60 +70,18 @@
 
       <div class="mt-2"><br /></div>
 
-      <client-only placeholder="Loading...">
-        <agile class="bg-purple">
-          <div class=" mt-2 flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037482/tradehub/assets/testimonials-1/image_5_adsyic.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
+      <!-- First Testimonials -->
+      <div class="bg-purple py-2 px-2">
+        <div class="px-6">
+          <VueSlickCarousel :arrows="true" :dots="true" :adaptiveHeight="true">
+            <div v-for="img in jtest1" :key="img">
+              <img :src="img" />
+            </div>
+          </VueSlickCarousel>
+        </div>
+      </div>
 
-          <div class=" flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037486/tradehub/assets/testimonials-1/image_8_xtbwnp.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
-
-          <div class=" flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037485/tradehub/assets/testimonials-1/image_7_l1tka7.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
-
-          <div class=" flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037484/tradehub/assets/testimonials-1/image_6_qrpp2z.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
-          <div class=" flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037480/tradehub/assets/testimonials-1/image_9_fvxtq8.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
-          <div class=" flex ">
-            <img
-              src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037482/tradehub/assets/testimonials-1/image_10_raewa3.png"
-              alt="testimonial1"
-              class="w-full sm:w-6/12 object-contain"
-            />
-          </div>
-
-          <template slot="prevButton">prev</template>
-    <template slot="nextButton">next</template>
-        </agile>
-      </client-only>
-
-      <div class="mt-4 text-gray-800 px-4">
+      <div class="mt-12 text-gray-800 px-4">
         <p class="leading-tight">
           I’m going to be brutally honest with you here,<br /><br />
           There are very, very few people in the Forex Industry who know what
@@ -447,19 +405,15 @@
       </p>
     </div>
 
-    <!-- <MobileTestimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642070646/tradehub/image_20_vjvkgr.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642070876/tradehub/image_21_rturob.png"
-      img5="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png"
-      img6="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png"
-      img7="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071121/tradehub/image_22_rmw0zf.png"
-      img8="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png"
-      img9="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071421/tradehub/image_23_sgjacr.png"
-      img10="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071513/tradehub/image_24_l0ma30.png"
-      img11="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071624/tradehub/image_25_fjk46z.png"
-    /> -->
+    <div class="bg-purple py-2 px-2">
+      <div class="px-6">
+        <VueSlickCarousel :arrows="true" :dots="true" :adaptiveHeight="true">
+          <div v-for="img in jtest2" :key="img">
+            <img :src="img" />
+          </div>
+        </VueSlickCarousel>
+      </div>
+    </div>
 
     <div
       class="
@@ -500,12 +454,15 @@
       </p>
     </div>
 
-    <!-- <PsychologyTestimonials
-      img1="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072192/tradehub/image_28_bhcaj7.png"
-      img2="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_26_thg6g5.png"
-      img3="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_27_ujcklm.png"
-      img4="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072465/tradehub/image_31_qfcako.png"
-    /> -->
+    <div class="bg-purple py-2 px-2">
+      <div class="px-6">
+        <VueSlickCarousel :arrows="true" :dots="true" :adaptiveHeight="true">
+          <div v-for="img in psytest" :key="img">
+            <img :src="img" />
+          </div>
+        </VueSlickCarousel>
+      </div>
+    </div>
 
     <div
       class="
@@ -619,29 +576,42 @@
 </template>
 
 <script>
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
 export default {
-  data: () => {
-    return {
-      email: '',
-    }
-  },
-  mounted() {
-    ;(function (w, d, s, id) {
-      var js,
-        fjs = d.getElementsByTagName(s)[0]
-      if (d.getElementById(id)) {
-        return
-      }
-      js = d.createElement(s)
-      js.id = id
-      js.src = 'https://cdn.birdsend.co/assets/static/js/form.js'
-      fjs.parentNode.insertBefore(js, fjs)
-    })(window, document, 'script', 'birdsend-form-js')
-  },
   methods: {},
   components: {},
   data() {
-
+    return {
+      jtest1: [
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037484/tradehub/assets/testimonials-1/image_6_qrpp2z.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037486/tradehub/assets/testimonials-1/image_8_xtbwnp.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037485/tradehub/assets/testimonials-1/image_7_l1tka7.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/q_auto:eco/v1642037482/tradehub/assets/testimonials-1/image_5_adsyic.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037480/tradehub/assets/testimonials-1/image_9_fvxtq8.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642037482/tradehub/assets/testimonials-1/image_10_raewa3.png',
+      ],
+      jtest2: [
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642070646/tradehub/image_20_vjvkgr.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629213841/tradehub/testimonial9_wqskrj.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177800/tradehub/testimonial2_x1vlbl.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642070876/tradehub/image_21_rturob.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628177819/tradehub/testimonial1_kgrfp0.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1628178324/tradehub/testimonial3_hjmaxc.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071121/tradehub/image_22_rmw0zf.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1629215928/tradehub/testimonial19_hj2wys.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071421/tradehub/image_23_sgjacr.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071513/tradehub/image_24_l0ma30.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642071624/tradehub/image_25_fjk46z.png',
+      ],
+      psytest: [
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072192/tradehub/image_28_bhcaj7.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_26_thg6g5.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072194/tradehub/image_27_ujcklm.png',
+        'https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072465/tradehub/image_31_qfcako.png',
+      ],
+    }
   },
   head() {
     return {
@@ -652,4 +622,21 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+// //
+<style scoped>
+.slick-next,
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+  border: none;
+}
+</style>

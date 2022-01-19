@@ -16,6 +16,7 @@
       </h2>
       <h2
         class="
+
           px-4
           mt-3
           font-semibold
@@ -32,8 +33,9 @@
 
       <div class="mt-3 lg:mt-0 text-center mx-auto w-full">
         <img
-          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642024496/tradehub/assets/95-percent-lose-money_btourj.png"
+          src="https://res.cloudinary.com/dq6iuhnpr/image/upload/q_100/v1642024496/tradehub/assets/95-percent-lose-money_btourj.png"
           alt="what know one would ever tell you"
+          class="mx-auto"
         />
       </div>
 
@@ -113,16 +115,34 @@
         />
       </div>
 
-      <p class="px-4 mt-3 leading-tight">
+      <div class="px-4 mt-3 leading-tight">
         I run a
         <span class="font-semibold">FREE Telegram channel</span>,<br /><br />
         You can check out what I do here,<br /><br />
-        <a
-          href="https://t.me/JoeEliteTradeHub"
-          class="text-blue4 underline font-medium"
-          >https://t.me/JoeEliteTradeHub</a
-        ><br /><br />
-      </p>
+        <div class="mt-2 px-3 mb-3 w-full text-center">
+          <a href="https://t.me/JoeEliteTradeHub">
+            <button
+              class="
+                shadow-lg
+                rounded-3xl
+                w-1/2
+                px-4
+                bg-blue
+                py-5
+                text-white text-center
+                font-semibold
+                uppercase
+                text-base
+                leading-tight
+                tracking-wide
+              "
+            >
+              join now<br />
+            </button>
+          </a>
+        </div>
+
+      </div>
 
       <div class="mt-4 text-gray-800 px-4">
         <p class="leading-tight">
@@ -268,7 +288,7 @@
         sm:max-w-screen-sm sm:mx-auto
       "
     >
-      <p class="leading-tight">
+      <div class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue"
           >A Forex Prophet…
         </span>
@@ -279,12 +299,30 @@
         With my help they now do the same,<br /><br />
         I train their eyes to see what I see and do what I do,<br /><br />
         Let me show you a few of the rare gifts I share on the
-        <a
-          href="https://t.me/JoeEliteTradeHub"
-          class="underline text-blue4 font-medium"
-          >free channel</a
-        ><br /><br />
-      </p>
+        free channel<br /><br />
+        <div class="mt-2 px-3 mb-3 w-full text-center">
+          <a href="https://t.me/JoeEliteTradeHub">
+            <button
+              class="
+                shadow-lg
+                rounded-3xl
+                w-1/2
+                px-4
+                bg-blue
+                py-5
+                text-white text-center
+                font-semibold
+                uppercase
+                text-base
+                leading-tight
+                tracking-wide
+              "
+            >
+              join now<br />
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
 
     <div
@@ -371,19 +409,36 @@
           Pay the trader.<br /><br />
         </div>
 
-        You can check
-        <a
-          href="https://t.me/JoeEliteTradeHub"
-          class="underline text-blue4 font-medium"
-          >My Channel</a
-        >
-        for tons of Price Predictions like this
+        You can check My Channel for tons of Price Predictions like this
       </div>
+      <br>
+      <div class="mt-3 px-3 mb-1 w-full text-center">
+          <a href="https://t.me/JoeEliteTradeHub">
+            <button
+              class="
+                shadow-lg
+                rounded-3xl
+                w-1/2
+                px-4
+                bg-blue
+                py-5
+                text-white text-center
+                font-semibold
+                uppercase
+                text-base
+                leading-tight
+                tracking-wide
+              "
+            >
+              join now<br />
+            </button>
+          </a>
+        </div>
     </div>
 
     <div
       class="
-        mt-4
+        mt-2
         text-gray-800
         px-4
         georgia
@@ -403,8 +458,6 @@
         Especially immediately you click the Buy or Sell button,<br /><br />
         When you become a Market wizard your anxiety drops to your ATL<br /><br />
       </p>
-    </div>
-
     <div class="bg-purple py-2 px-2">
       <div class="px-6">
         <VueSlickCarousel :arrows="true" :dots="true" :adaptiveHeight="true">
@@ -414,6 +467,8 @@
         </VueSlickCarousel>
       </div>
     </div>
+    </div>
+
 
     <div
       class="
@@ -427,7 +482,7 @@
         sm:max-w-screen-sm sm:mx-auto
       "
     >
-      <p class="leading-tight">
+      <div class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Forex Trading is 80% Psychology…
         </span>
@@ -445,15 +500,31 @@
         how to manage greed and impatience,<br /><br />
         and importantly how to practice psychological responses in various
         situations,<br /><br />
-        you can join my
-        <a
-          href="https://t.me/JoeEliteTradeHub"
-          class="underline text-blue4 font-medium"
-          >FREE CHANNEL HERE</a
-        ><br /><br />
-      </p>
-    </div>
+        you can join my FREE CHANNEL HERE<br /><br />
 
+        <div class="mt-2 px-3 mb-3 w-full text-center">
+          <a href="https://t.me/JoeEliteTradeHub">
+            <button
+              class="
+                shadow-lg
+                rounded-3xl
+                w-1/2
+                px-4
+                bg-blue
+                py-5
+                text-white text-center
+                font-semibold
+                uppercase
+                text-base
+                leading-tight
+                tracking-wide
+              "
+            >
+              join now<br />
+            </button>
+          </a>
+        </div>
+      </div>
     <div class="bg-purple py-2 px-2">
       <div class="px-6">
         <VueSlickCarousel :arrows="true" :dots="true" :adaptiveHeight="true">
@@ -463,6 +534,8 @@
         </VueSlickCarousel>
       </div>
     </div>
+    </div>
+
 
     <div
       class="
@@ -476,7 +549,7 @@
         sm:max-w-screen-sm sm:mx-auto
       "
     >
-      <p class="leading-tight">
+      <div class="leading-tight">
         <span class="font-semibold text-3xl georgia text-blue leading-tight"
           >Sudden Risk management get out of control…
         </span>
@@ -486,27 +559,46 @@
         sticks,<br /><br />
         You shouldn’t take trades without first stacking the odds in your
         favor,<br /><br />
-        Like I show in the
-        <a
-          href="https://t.me/JoeEliteTradeHub"
-          class="underline text-blue4 font-medium"
-          >FREE channel</a
-        >,<br /><br />
+        Like I show in the FREE channel,<br /><br />
+
+        <div class=" px-3 mb-3 w-full text-center">
+          <a href="https://t.me/JoeEliteTradeHub">
+            <button
+              class="
+                shadow-lg
+                rounded-3xl
+                w-1/2
+                px-4
+                bg-blue
+                py-5
+                text-white text-center
+                font-semibold
+                uppercase
+                text-base
+                leading-tight
+                tracking-wide
+              "
+            >
+              join now<br />
+            </button>
+          </a>
+        </div>
+        <br>
         Before you click that button, calculate the odds of your trade being
         successful,<br /><br />
         I show them the different price actions,<br /><br />
         Psychological price trigger levels and proper risk management,<br /><br />
         You have a chance today to join these happy traders today,<br /><br />
         I don’t think you’ll see this message after today.<br /><br />
-      </p>
-    </div>
-
+      </div>
     <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full">
       <img
         src="https://res.cloudinary.com/dq6iuhnpr/image/upload/v1642072679/tradehub/image_30_xx8lkv.png"
         alt="joe elite dark"
       />
     </div>
+    </div>
+
 
     <div class="mt-3 w-4/5 lg:mt-0 text-center mx-auto sm:w-full lg:w-5/12">
       <img

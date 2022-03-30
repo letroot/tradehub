@@ -1,7 +1,7 @@
 <template>
   <div class="dm">
     <Nav />
-    <div class="xl:px-24 sm:px-20 px-8 pt-12 pb-12 lg:pt-36 bg-green relative">
+    <div class="xl:px-24 sm:px-16 px-8 pt-12 pb-12 lg:pt-36 bg-green relative">
       <div
         class="text-blue flex flex-col lg:flex-row text-center justify-between"
       >
@@ -42,6 +42,7 @@
             Complete your payment below to gain access to my premium mentorship
             circle.
           </h2>
+          <p class="text-sm italic">*this payment page is for Nigerian Naira payments. For other countries/currencies, click <a class="underline blue" href="https://joe-elite.trade/pay">here</a></p>
         </div>
       </div>
     </div>

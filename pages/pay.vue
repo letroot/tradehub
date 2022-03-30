@@ -42,6 +42,7 @@
             Complete your payment below to gain access to my premium mentorship
             circle.
           </h2>
+          <p class="text-sm italic">*this payment page supports USD and international payments. For Nigerian Naira payments, click <a class="underline blue" href="https://joe-elite.trade/pay-ng">here</a></p>
         </div>
       </div>
     </div>

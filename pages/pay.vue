@@ -1,7 +1,7 @@
 <template>
   <div class="dm">
     <Nav />
-    <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-green relative">
+    <div class="xl:px-24 sm:px-20 px-8 pt-12 pb-12 lg:pt-36 bg-green relative">
       <div
         class="text-blue flex flex-col lg:flex-row text-center justify-between"
       >
@@ -9,7 +9,7 @@
           <h1
             class="
               mt-4
-              xl:mt-6
+              xl:mt-4
               text-3xl
               sm:text-5xl
               xl:text-6xl
@@ -47,11 +47,11 @@
     </div>
 
     <!-- @submit.prevent -->
-    <div class="xl:mt-20 mx-auto mt-2 sm:w-10/12 lg:w-9/12 xl:w-8/12">
+    <div class="xl:mt-16 mx-auto mt-2 sm:w-10/12 lg:w-9/12 xl:w-8/12">
       <form
         @submit.prevent
         method="post"
-        class="mt-6 flex flex-col items-center space-y-6 avenir-regular px-5"
+        class="mt-4 flex flex-col items-center space-y-6 avenir-regular px-5"
       >
         <input
           type="text"

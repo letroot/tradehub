@@ -25,6 +25,7 @@ export default {
   plugins: [
     { src: './plugins/vue-slick-carousel.js' },
     { src: '~/plugins/vue-agile', mode: 'client' },
+    '~/plugins/flutterwave'
   ],
 
   build: {

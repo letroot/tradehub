@@ -1,6 +1,6 @@
 <template>
   <div class="dm">
-    <DeadNav />
+    <Nav />
     <div class="xl:px-44 sm:px-20 px-8 pt-28 pb-12 lg:pt-52 bg-green relative">
       <div
         class="text-blue flex flex-col lg:flex-row text-center justify-between"
@@ -49,12 +49,10 @@
     <!-- @submit.prevent -->
     <div class="xl:mt-20 mx-auto mt-2 sm:w-10/12 lg:w-9/12 xl:w-8/12">
       <form
-        action=""
+        @submit.prevent
         method="post"
         class="mt-6 flex flex-col items-center space-y-6 avenir-regular px-5"
       >
-        <input type="hidden" name="meta_id" value="10495" />
-        <input type="hidden" name="meta_user_id" value="2341" />
         <input
           type="text"
           v-model="name"
@@ -96,7 +94,7 @@
           placeholder="Email address*"
         />
         <div class="mt-8 text-center mx-auto w-full flex justify-center">
-          <button type="submit" class="cta uppercase" @click="payViaService">
+          <button  class="cta uppercase" @click="payViaService">
             complete payment
           </button>
         </div>
@@ -120,18 +118,14 @@ export default {
         currency: 'USD',
         payment_options: 'card',
         redirect_url: '',
-        meta: {
-          counsumer_id: '7898',
-          consumer_mac: 'kjs9s8ss7dd',
-        },
         customer: {
-          name: 'Demo Customer  Name',
-          email: 'customer@mail.com',
-          phone_number: '081845***044',
+          name: this.name,
+          email: this.email,
+
         },
         customizations: {
           title: 'Joe Elite',
-          description: 'Flutterwave Test',
+          description: 'Joe Elite 30-day Mentorship',
           logo: 'https://flutterwave.com/images/logo-colored.svg',
         },
         callback: this.makePaymentCallback,
@@ -139,27 +133,22 @@ export default {
       },
       loadingMore: false,
       currentPage: 1,
-
     }
   },
-  mounted() {
 
-  },
   methods: {
 
     payViaService() {
+      console.log("Entered payViaService function")
       try {
         this.payWithFlutterwave(this.paymentData);
       } catch (e) {
-        if (e.message === 'window.FlutterwaveCheckout is not a function') {
-          this.showNotification('error', 'Network Failure');
-        }
+        console.log(e.message);
+
       }
     },
     makePaymentCallback(response) {
-      if (response.status === 'successful') {
-        this.closePaymentModal(10);
-      }
+      console.log("Pay", response)
     },
     generateReference() {
       let date = new Date();

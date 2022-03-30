@@ -126,7 +126,7 @@ export default {
           tx_ref: this.generateReference(),
           amount: 60000,
           currency: 'NGN',
-          payment_options: 'card',
+          // payment_options: 'card',
           redirect_url: '',
           customer: {
             name: this.name,

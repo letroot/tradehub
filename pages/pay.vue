@@ -94,7 +94,7 @@
           placeholder="Email address*"
         />
         <div class="mt-8 text-center mx-auto w-full flex justify-center">
-          <button  class="cta uppercase" @click="payViaService">
+          <button class="cta uppercase" @click="payViaService">
             complete payment
           </button>
         </div>
@@ -112,56 +112,50 @@ export default {
     return {
       email: '',
       name: '',
-      paymentData: {
-        tx_ref: this.generateReference(),
-        amount: 100,
-        currency: 'USD',
-        payment_options: 'card',
-        redirect_url: '',
-        customer: {
-          name: this.name,
-          email: this.email,
-
-        },
-        customizations: {
-          title: 'Joe Elite',
-          description: 'Joe Elite 30-day Mentorship',
-          logo: 'https://flutterwave.com/images/logo-colored.svg',
-        },
-        callback: this.makePaymentCallback,
-        onclose: this.closedPaymentModal,
-      },
       loadingMore: false,
       currentPage: 1,
     }
   },
 
   methods: {
-
     payViaService() {
-      console.log("Entered payViaService function")
+      console.log('Entered payViaService function')
       try {
-        this.payWithFlutterwave(this.paymentData);
+        this.payWithFlutterwave({
+          tx_ref: this.generateReference(),
+          amount: 100,
+          currency: 'USD',
+          payment_options: 'card',
+          redirect_url: '',
+          customer: {
+            name: this.name,
+            email: this.email,
+          },
+          customizations: {
+            title: 'Joe Elite',
+            description: 'Joe Elite 30-day Mentorship',
+            logo: 'https://flutterwave.com/images/logo-colored.svg',
+          },
+          callback: this.makePaymentCallback,
+          onclose: this.closedPaymentModal,
+        })
       } catch (e) {
-        console.log(e.message);
-
+        console.log(e.message)
       }
     },
     makePaymentCallback(response) {
-      console.log("Pay", response)
+      console.log('Pay', response)
     },
     generateReference() {
-      let date = new Date();
-      return date.getTime().toString();
+      let date = new Date()
+      return date.getTime().toString()
     },
     submit() {
       axios
         .post('https://www.google.com/', {
           email: this.email,
         })
-        .then(() => {
-
-        })
+        .then(() => {})
         .catch((error) => {
           console.log('error: ', error)
         })

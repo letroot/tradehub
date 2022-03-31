@@ -94,9 +94,9 @@
           "
           placeholder="Email address*"
         />
-        <div class="mt-8 text-center mx-auto w-full flex justify-center">
-          <button class="cta uppercase" @click="payViaService">
-            complete payment
+        <div class="mt-2 text-center mx-auto w-full flex justify-center">
+          <button class="cta uppercase">
+            <a href="https://selar.co/pqhs">pay now</a>
           </button>
         </div>
       </form>
